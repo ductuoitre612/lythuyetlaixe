@@ -1,0 +1,158 @@
+/* Reset mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Thanh điều hướng */
+.navbar {
+  background: #007bff;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.navbar ul li {
+  margin: 0 15px;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+  background: url("banner.jpg") no-repeat center center/cover;
+  color: rgb(227, 28, 28);
+  text-align: center;
+  padding: 50px 20px;
+}
+.banner h1 {
+  background: rgba(252, 248, 248, 0.5);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/* Nội dung chính */
+.container {
+  display: flex;
+  padding: 30px 10%;
+  gap: 30px;
+}
+.container .left {
+  flex: 1;
+}
+.container .right {
+  flex: 2;
+}
+.container .right h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+.container .right p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.container .right ul {
+  margin-left: 20px;
+  line-height: 1.6;
+}
+
+/* Trình tự thi hiệu quả */
+.guide {
+  background: #f8f9fa;
+  padding: 30px 10%;
+}
+.guide h2 {
+  margin-bottom: 20px;
+  color: #28a745;
+}
+.guide ul {
+  list-style: none;
+}
+.guide li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.circle {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  font-weight: bold;
+  color: white;
+  margin-right: 15px;
+}
+.blue {
+  background: #007bff;
+}
+.sky {
+  background: #17a2b8;
+}
+.red {
+  background: #dc3545;
+}
+.gray {
+  background: #6c757d;
+}
+.green {
+  background: #28a745;
+}
+
+.guide .content strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Bộ đề thi */
+.exam-section {
+  padding: 30px 10%;
+  text-align: center;
+}
+.exam-section h2 {
+  color: #ef1212;
+  margin-bottom: 10px;
+}
+.exam-section p {
+  margin-bottom: 20px;
+}
+.exam-buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 cột mỗi dòng */
+  gap: 20px; /* khoảng cách giữa các ô */
+  max-width: 1000px; /* căn giữa */
+  margin: auto;
+}
+
+.exam-buttons button {
+  background: dodgerblue;
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.exam-buttons button:hover {
+  background: darkblue;
+  transform: scale(1.05);
+}
