@@ -48,45 +48,62 @@ function renderPagination(page) {
   const pageNumbers = document.getElementById("pageNumbers");
   pageNumbers.innerHTML = "";
 
-  for (let i = 1; i <= totalPages; i++) {
-    const btn = document.createElement("button");
-    btn.textContent = i;
-    btn.style.margin = "0 3px";
-    btn.onclick = () => {
-      currentPage = i;
-      renderPage(currentPage);
-    };
+  const maxVisible = 5; // số nút hiển thị quanh trang hiện tại
+  const half = Math.floor(maxVisible / 2);
 
-    if (i === page) {
+  let start = Math.max(1, page - half);
+  let end = Math.min(totalPages, page + half);
+
+  // đảm bảo đủ số nút
+  if (end - start + 1 < maxVisible) {
+    if (page <= half) {
+      end = Math.min(totalPages, start + maxVisible - 1);
+    } else {
+      start = Math.max(1, end - maxVisible + 1);
+    }
+  }
+
+  // nút đầu
+  if (start > 1) {
+    createPageButton(1);
+    if (start > 2) addDots();
+  }
+
+  // các nút giữa
+  for (let i = start; i <= end; i++) {
+    createPageButton(i, i === page);
+  }
+
+  // nút cuối
+  if (end < totalPages) {
+    if (end < totalPages - 1) addDots();
+    createPageButton(totalPages);
+  }
+
+  // helper: tạo nút số
+  function createPageButton(num, isActive = false) {
+    const btn = document.createElement("button");
+    btn.textContent = num;
+    btn.style.margin = "0 3px";
+    if (isActive) {
       btn.style.fontWeight = "bold";
       btn.style.background = "#ddd";
     }
-
+    btn.onclick = () => {
+      currentPage = num;
+      renderPage(currentPage);
+    };
     pageNumbers.appendChild(btn);
+  }
+
+  // helper: dấu ...
+  function addDots() {
+    const span = document.createElement("span");
+    span.textContent = "...";
+    span.style.margin = "0 5px";
+    pageNumbers.appendChild(span);
   }
 }
 
-// Nút prev/next
-document.getElementById("prev").addEventListener("click", () => {
-  if (currentPage > 1) {
-    currentPage--;
-    renderPage(currentPage);
-  }
-});
-
-document.getElementById("next").addEventListener("click", () => {
-  if (currentPage < Math.ceil(questions.length / perPage)) {
-    currentPage++;
-    renderPage(currentPage);
-  }
-});
-
-document.getElementById("goPage").addEventListener("click", () => {
-  const page = parseInt(document.getElementById("pageInput").value);
-  if (page >= 1 && page <= Math.ceil(questions.length / perPage)) {
-    currentPage = page;
-    renderPage(currentPage);
-  }
-});
 
 loadQuestions();
