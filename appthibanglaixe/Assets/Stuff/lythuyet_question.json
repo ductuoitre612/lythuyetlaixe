@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "question": "Phần của đường bộ được sử dụng cho phương tiện giao thông đường bộ đi lại là gì?",
+    "options": [
+      "Phần mặt đường và lề đường.",
+      "Phần đường xe chạy.",
+      "Phần đường xe cơ giới."
+    ],
+    "answer": 1,
+    "explanation": "Căn cứ Điều 2 Luật Trật tự, an toàn giao thông đường bộ 2024: Phần đường xe chạy là phần của đường bộ được sử dụng cho phương tiện giao thông đường bộ đi lại."
+  },
+  {
+    "id": 2,
+    "question": "Làn đường là gì?",
+    "options": [
+      "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, sử dụng cho xe chạy.",
+      "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có đủ chiều rộng cho xe chạy an toàn.",
+      "Là đường cho xe ô tô chạy, dừng, đỗ an toàn."
+    ],
+    "answer": 1,
+    "explanation": "Căn cứ Điều 2 Luật Trật tự, an toàn giao thông đường bộ 2024: Làn đường là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có đủ chiều rộng cho xe chạy an toàn."
+  },
+  {
+    "id": 3,
+    "question": "Khổ giới hạn của đường bộ được hiểu như thế nào là đúng?",
+    "options": [
+      "Khổ giới hạn của đường bộ là khoảng trống có kích thước giới hạn về chiều rộng, chiều cao của đường bộ để các xe, bao gồm cả hàng hoá xếp trên xe đi qua được an toàn và được xác định theo quy chuẩn, tiêu chuẩn kỹ thuật của đường bộ.",
+      "Là khoảng trống có kích thước giới hạn về chiều rộng của đường, cầu, bến phà, hầm trên đường bộ để các xe kể cả hàng hóa xếp trên xe đi qua được an toàn",
+      "Là khoảng trống có kích thước giới hạn về chiều cao của cầu, bến phà, hầm trên đường bộ để các xe đi qua được an toàn."
+    ],
+    "answer": 0,
+    "explanation": "Tại Điều 5 Thông tư 46/2015/TT-BGTVT (được sửa đổi, bổ sung bởi khoản 3 Điều 1 Thông tư 35/2023/TT-BGTVT), khổ giới hạn của đường bộ là Khổ giới hạn về chiều rộng của đường bộ là giới hạn chiều rộng làn xe để các xe, kể cả hàng hóa xếp trên xe đi qua được an toàn, phụ thuộc vào cấp kỹ thuật của đường bộ và địa hình xây dựng tuyến đường."
+  },
+  {
+    "id": 4,
+    "question": "Dải phân cách được lắp đặt để làm gì?",
+    "options": [
+      "Để phân chia các làn đường dành cho xe cơ giới và xe thô sơ trên đường cao tốc.",
+      "Để phân chia phần đường xe chạy thành hai chiều riêng biệt hoặc để phân chia phần đường dành cho xe cơ giới và xe thô sơ hoặc của nhiều loại xe khác nhau trên cùng một chiều đường.",
+      "Để phân tách phần đường xe chạy và hành lang an toàn giao thông."
+    ],
+    "answer": 1,
+    "explanation": "Căn cứ theo quy định tại Điều 85 Quy chuẩn kỹ thuật quốc gia QCVN 41:2019/BGTVT về Báo hiệu đường bộ ban hành kèm theo Thông tư 54/2019/TT-BGTVT thì dải phân cách được hiểu là bộ phận của đường mà xe không chạy trên đó được dùng để phân chia hai chiều xe chạy riêng biệt hoặc để phân chia phần đường của xe cơ giới và xe thô sơ hoặc của nhiều loại xe khác nhau trên cùng một chiều xe chạy."
+  },
+  {
+    "id": 5,
+    "question": "Vạch kẻ đường là gì?",
+    "options": [
+      "Là báo hiệu đường bộ để hỗ trợ cảnh báo nguy hiểm cho người tham gia giao thông đường bộ.",
+      "Là vạch chỉ sự phân chia làn đường, vị trí hoặc hướng đi, vị trí dừng lại.",
+      "Là báo hiệu cho người tham gia giao thông đường bộ về các thông tin của đường bộ.",
+      "Cả ba ý trên."
+    ],
+    "answer": 1,
+    "explanation": "Căn cứ khoản 6 Điều 11 Luật Trật tự, an toàn giao thông đường bộ 2024: Vạch kẻ đường là vạch chỉ sự phân chia làn đường, vị trí hoặc hướng đi, vị trí dừng lại."
+  },
+  {
+    "id": 6,
+    "question": "Người điều khiển phương tiện tham gia giao thông đường bộ được hiểu như thế nào là đúng?",
+    "options": [
+      "Là người điều khiển xe cơ giới, người điều khiển xe thô sơ, người điều khiển xe máy chuyên dùng.",
+      "Là người được giao nhiệm vụ hướng dẫn giao thông trên đường bộ.",
+      "Cả hai ý trên."
+    ],
+    "answer": 0,
+    "explanation": "Căn cứ khoản 9 Điều 2 Luật Trật tự, an toàn giao thông đường bộ 2024: Người điều khiển phương tiện tham gia giao thông đường bộ bao gồm: người điều khiển xe cơ giới (sau đây gọi là người lái xe), người điều khiển xe thô sơ, người điều khiển xe máy chuyên dùng."
+  },
+  {
+    "id": 7,
+    "question": "Người lái xe được hiểu như thế nào là đúng?",
+    "options": [
+      "Là người điều khiển xe cơ giới.",
+      "Là người điều khiển xe thô sơ.",
+      "Là người điều khiển xe máy chuyên dùng."
+    ],
+    "answer": 0,
+    "explanation": "Căn cứ khoản 9 Điều 2 Luật Trật tự, an toàn giao thông đường bộ 2024: Người điều khiển phương tiện tham gia giao thông đường bộ bao gồm: người điều khiển xe cơ giới (sau đây gọi là người lái xe), người điều khiển xe thô sơ, người điều khiển xe máy chuyên dùng."
+  },
+  {
+    "id": 8,
+    "question": "Trong nhóm các phương tiện giao thông đường bộ dưới đây, nhóm phương tiện nào là xe cơ giới?",
+    "options": [
+      "Xe ô tô; máy kéo; xe mô tô hai bánh; xe mô tô ba bánh; xe gắn máy; xe cơ giới dùng cho người khuyết tật và xe máy chuyên dùng; xe đạp, xe đạp máy, xe đạp điện.",
+      "Xe ô tô; rơ moóc được kéo bởi xe ô tô; sơ mi rơ moóc được kéo bởi ô tô đầu kéo; xe chở người bốn bánh có gắn động cơ; xe chở hàng bốn bánh có gắn động cơ; xe mô tô, xe gắn máy và các loại xe tương tự."
+    ],
+    "answer": 1,
+    "explanation": "Căn cứ khoản 1 Điều 34 Luật Trật tự, an toàn giao thông đường bộ 2024: nhóm phương tiện xe cơ giới bao gồm: Xe ô tô; rơ moóc được kéo bởi xe ô tô; sơ mi rơ moóc được kéo bởi ô tô đầu kéo; xe chở người bốn bánh có gắn động cơ; xe chở hàng bốn bánh có gắn động cơ; xe mô tô, xe gắn máy và các loại xe tương tự."
+  },
+  {
+    "id": 9,
+    "question": "Trong nhóm các phương tiện giao thông đường bộ dưới đây, nhóm phương tiện nào là xe thô sơ?",
+    "options": [
+      "Xe đạp, xe đạp máy, xe đạp điện; xe xích lô; xe lăn dùng cho người khuyết tật; xe vật nuôi kéo và các loại xe tương tự.",
+      "Xe đạp (kể cả xe đạp máy, xe đạp điện), xe gắn máy, xe cơ giới dùng cho người khuyết tật và xe máy chuyên dùng.",
+      "Xe ô tô, máy kéo, rơ moóc hoặc sơ mi rơ moóc được kéo bởi xe ô tô, máy kéo."
+    ],
+    "answer": 0,
+    "explanation": "Căn cứ khoản 2 Điều 34 Luật Trật tự, an toàn giao thông đường bộ 2024: nhóm phương tiện xe thô sơ bao gồm: Xe đạp, xe đạp máy, xe đạp điện; xe xích lô; xe lăn dùng cho người khuyết tật; xe vật nuôi kéo và các loại xe tương tự."
+  },
+  {
+    "id": 10,
+    "question": "Phương tiện giao thông đường bộ gồm những loại nào?",
+    "options": [
+      "Phương tiện giao thông cơ giới đường bộ.",
+      "Phương tiện giao thông thô sơ đường bộ, xe máy chuyên dùng và các loại xe tương tự.",
+      "Cả hai ý trên."
+    ],
+    "answer": 2,
+    "explanation": "Căn cứ khoản 2 Điều 2 Luật Trật tự, an toàn giao thông đường bộ 2024: Phương tiện giao thông đường bộ là các loại xe, bao gồm: phương tiện giao thông cơ giới đường bộ (sau đây gọi là xe cơ giới), phương tiện giao thông thô sơ đường bộ (sau đây gọi là xe thô sơ), xe máy chuyên dùng và các loại xe tương tự."
+  },
+  {
+    "id": 11,
+    "question": "Người tham gia giao thông đường bộ gồm những đối tượng nào?",
+    "options": [
+      "Người điều khiển, người được chở trên phương tiện tham gia giao thông đường bộ.",
+      "Người điều khiển, dẫn dắt vật nuôi trên đường bộ; người đi bộ trên đường bộ.",
+      "Cả hai ý trên."
+    ],
+    "answer": 2,
+    "explanation": "Căn cứ khoản 2 Điều 2 Luật Trật tự, an toàn giao thông đường bộ 2024: Người tham gia giao thông đường bộ bao gồm: người điều khiển, người được chở trên phương tiện tham gia giao thông đường bộ; người điều khiển, dẫn dắt vật nuôi trên đường bộ; người đi bộ trên đường bộ."
+  }
+]
