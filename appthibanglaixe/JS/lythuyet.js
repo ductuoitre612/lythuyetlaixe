@@ -48,13 +48,12 @@ function renderPagination(page) {
   const pageNumbers = document.getElementById("pageNumbers");
   pageNumbers.innerHTML = "";
 
-  const maxVisible = 5; // số nút hiển thị quanh trang hiện tại
+  const maxVisible = 5;
   const half = Math.floor(maxVisible / 2);
 
   let start = Math.max(1, page - half);
   let end = Math.min(totalPages, page + half);
 
-  // đảm bảo đủ số nút
   if (end - start + 1 < maxVisible) {
     if (page <= half) {
       end = Math.min(totalPages, start + maxVisible - 1);
@@ -63,24 +62,20 @@ function renderPagination(page) {
     }
   }
 
-  // nút đầu
   if (start > 1) {
     createPageButton(1);
     if (start > 2) addDots();
   }
 
-  // các nút giữa
   for (let i = start; i <= end; i++) {
     createPageButton(i, i === page);
   }
 
-  // nút cuối
   if (end < totalPages) {
     if (end < totalPages - 1) addDots();
     createPageButton(totalPages);
   }
 
-  // helper: tạo nút số
   function createPageButton(num, isActive = false) {
     const btn = document.createElement("button");
     btn.textContent = num;
@@ -96,7 +91,6 @@ function renderPagination(page) {
     pageNumbers.appendChild(btn);
   }
 
-  // helper: dấu ...
   function addDots() {
     const span = document.createElement("span");
     span.textContent = "...";
