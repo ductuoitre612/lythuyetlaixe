@@ -119,5 +119,104 @@
     ],
     "answer": 2,
     "explanation": "Căn cứ khoản 2 Điều 2 Luật Trật tự, an toàn giao thông đường bộ 2024: Người tham gia giao thông đường bộ bao gồm: người điều khiển, người được chở trên phương tiện tham gia giao thông đường bộ; người điều khiển, dẫn dắt vật nuôi trên đường bộ; người đi bộ trên đường bộ."
+  },
+  {
+    "id": 12,
+    "question": "Người điều khiển phương tiện tham gia giao thông đường bộ gồm những đối tượng nào dưới đây?",
+    "options": [
+      "Người điều khiển xe cơ giới, người điều khiển xe thô sơ.",
+      "Người điều khiển xe máy chuyên dùng.",
+      "Cả hai ý trên."
+    ],
+    "answer": 2,
+    "explanation": "Căn cứ khoản 9 Điều 2 Luật Trật tự, an toàn giao thông đường bộ 2024: Người điều khiển phương tiện tham gia giao thông đường bộ bao gồm: người điều khiển xe cơ giới (sau đây gọi là người lái xe), người điều khiển xe thô sơ, người điều khiển xe máy chuyên dùng."
+  },
+  {
+    "id": 13,
+    "question": "Người điều khiển giao thông đường bộ được hiểu như thế nào là đúng?",
+    "options": [
+      "Là người điều khiển phương tiện tham gia giao thông đường bộ.",
+      "Là Cảnh sát giao thông và người được giao nhiệm vụ hướng dẫn giao thông trên đường bộ.",
+      "Là người tham gia giao thông đường bộ."
+    ],
+    "answer": 1,
+    "explanation": "Căn cứ khoản 10 Điều 2 Luật Trật tự, an toàn giao thông đường bộ 2024: Người điều khiển giao thông đường bộ (sau đây gọi là người điều khiển giao thông) bao gồm: Cảnh sát giao thông và người được giao nhiệm vụ hướng dẫn giao thông trên đường bộ."
+  },
+  {
+    "id": 14,
+    "question": "Hành vi nào dưới đây bị nghiêm cấm?",
+    "options": [
+      "Sử dụng xe đạp đi trên các tuyến quốc lộ.",
+      "Rải vật sắc nhọn, đổ chất gây trơn trượt trên đường bộ.",
+      "Cả hai ý trên."
+    ],
+    "answer": 1,
+    "explanation": "Căn cứ khoản 20 Điều 9 Luật Trật tự, an toàn giao thông đường bộ 2024: Các hành vi bị nghiêm cấm bao gồm: Đặt, để chướng ngại vật, vật cản khác trái phép trên đường bộ; rải vật sắc nhọn, đổ chất gây trơn trượt trên đường bộ; làm rơi vãi đất đá, hàng hóa, vật liệu xây dựng, phế thải trên đường bộ; đổ, xả thải, làm rơi vãi hóa chất, chất thải gây mất an toàn giao thông đường bộ."
+  },
+  {
+    "id": 15,
+    "question": "Hành vi đưa xe cơ giới, xe máy chuyên dùng tham gia giao thông đường bộ nào dưới đây bị cấm?",
+    "options": [
+      "Không có chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường.",
+      "Hết niên hạn sử dụng.",
+      "Cả hai ý trên."
+    ],
+    "answer": 2,
+    "explanation": "Căn cứ khoản 8 Điều 9 Luật Trật tự, an toàn giao thông đường bộ 2024, Các hành vi bị nghiêm cấm bao gồm:Đưa xe cơ giới, xe máy chuyên dùng không bảo đảm quy định của pháp luật về an toàn kỹ thuật và bảo vệ môi trường, phương tiện khác không đủ điều kiện theo quy định của pháp luật để tham gia giao thông đường bộ."
+  },
+  {
+    "id": 16,
+    "question": "Tổ chức đua xe được phép thực hiện khi nào?",
+    "options": [
+      "Trên đường phố không có người qua lại.",
+      "Được người dân ủng hộ.",
+      "Được cơ quan có thẩm quyền cấp phép."
+    ],
+    "answer": 2,
+    "explanation": "Theo Điều 9 Luật Trật tự, an toàn giao thông đường bộ 2024, quy định hành vi đua xe, cổ vũ đua xe, tổ chức đua xe trái phép là hành vi bị nghiêm cấm."
+  },
+  {
+    "id": 17,
+    "question": "Hành vi đua xe trái phép bị xử lý như thế nào?",
+    "options": [
+      "Chỉ bị nhắc nhở.",
+      "Tùy theo mức độ của hành vi vi phạm có thể bị xử lý hành chính hoặc xử lý hình sự."
+    ],
+    "answer": 1,
+    "explanation": "Đua xe trái phép là hành vi bị nghiêm cấm. Tùy mức độ vi phạm, người thực hiện có thể bị phạt hành chính hoặc truy cứu trách nhiệm hình sự. Chi tiết mức phạt được quy định tại Điều 35, Nghị định 168/2024/NĐ-CP."
+  },
+  {
+    "id": 18,
+    "question": "Người điều khiển phương tiện tham gia giao thông đường bộ mà trong máu hoặc hơi thở có nồng độ cồn có bị nghiêm cấm không?",
+    "options": [
+      "Bị nghiêm cấm.",
+      "Không bị nghiêm cấm.",
+      "Không bị nghiêm cấm, nếu nồng độ cồn trong máu ở mức nhẹ, có thể điều khiển phương tiện tham gia giao thông."
+    ],
+    "answer": 0,
+    "explanation": "Căn cứ Khoản 2 Điều 9 Luật Trật tự, an toàn giao thông đường bộ 2024: Điều khiển phương tiện tham gia giao thông đường bộ mà trong máu hoặc hơi thở có nồng độ cồn là hành vi bị nghiêm cấm"
+  },
+  {
+    "id": 19,
+    "question": "Theo Luật Phòng chống tác hại của rượu, bia, đối tượng nào dưới đây bị cấm sử dụng rượu, bia khi tham gia giao thông?",
+    "options": [
+      "Người điều khiển xe ô tô, xe mô tô, xe đạp, xe gắn máy.",
+      "Người được chở trên xe cơ giới.",
+      "Cả hai ý trên."
+    ],
+    "answer": 0,
+    "explanation": "Người điều khiển phương tiện giao thông không uống rượu, bia trước và trong khi tham gia giao thông."
+  },
+  {
+    "id": 20,
+    "question": "Hành vi giao xe ô tô, mô tô cho người nào sau đây tham gia giao thông đường bộ bị nghiêm cấm?",
+    "options": [
+      "Người chưa đủ tuổi theo quy định.",
+      "Người không có giấy phép lái xe.",
+      "Người có giấy phép lái xe nhưng đã bị trừ hết 12 điểm.",
+      "Cả ba ý trên."
+    ],
+    "answer": 3,
+    "explanation": "Căn cứ Khoản 7 Điều 9 Luật Trật tự, an toàn giao thông đường bộ 2024: Nghiêm cấm tuyệt đối việc giao xe cơ giới, xe máy chuyên dùng cho người không đủ điều kiện điều khiển, như: chưa đủ tuổi, không có GPLX hoặc GPLX đã bị trừ hết điểm"
   }
 ]
