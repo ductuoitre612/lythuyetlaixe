@@ -1,3 +1,18 @@
+// Nút prev/next
+document.getElementById("prev").addEventListener("click", () => {
+  if (currentPage > 1) {
+    currentPage--;
+    renderPage(currentPage);
+  }
+});
+
+document.getElementById("next").addEventListener("click", () => {
+  if (currentPage < Math.ceil(questions.length / perPage)) {
+    currentPage++;
+    renderPage(currentPage);
+  }
+});
+
 let questions = [];
 let currentPage = 1;
 const perPage = 10;
@@ -62,15 +77,18 @@ function renderPagination(page) {
     }
   }
 
+  // nút đầu
   if (start > 1) {
     createPageButton(1);
     if (start > 2) addDots();
   }
 
+  // các nút giữa
   for (let i = start; i <= end; i++) {
     createPageButton(i, i === page);
   }
 
+  // nút cuối
   if (end < totalPages) {
     if (end < totalPages - 1) addDots();
     createPageButton(totalPages);
