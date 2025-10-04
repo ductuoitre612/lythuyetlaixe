@@ -1,3 +1,83 @@
+
+.question ol {
+  padding-left: 30px;
+  margin-bottom: 0;
+}
+
+.question li {
+  margin-bottom: 8px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar {
+  background: #007bff;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  background: url("banner.jpg") no-repeat center center/cover;
+  color: rgb(227, 28, 28);
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.banner h1 {
+  background: rgba(252, 248, 248, 0.5);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.container {
+  max-width: 1000px;
+  font-size: 20px;
+  margin: 80px auto 0 auto;
+}
+
+#pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#pageInfo {
+  margin-top: 10px;
+}
+
+.question img {
+  display: block;
+  margin: 10px auto;
+  max-width: 400px;
 }
