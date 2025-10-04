@@ -218,5 +218,119 @@
     ],
     "answer": 3,
     "explanation": "Căn cứ Khoản 7 Điều 9 Luật Trật tự, an toàn giao thông đường bộ 2024: Nghiêm cấm tuyệt đối việc giao xe cơ giới, xe máy chuyên dùng cho người không đủ điều kiện điều khiển, như: chưa đủ tuổi, không có GPLX hoặc GPLX đã bị trừ hết điểm"
+  },
+  {
+    "id": 21,
+    "question": "Hành vi nào sau đây bị nghiêm cấm?",
+    "options": [
+      "Điều khiển xe cơ giới lạng lách, đánh võng, rú ga liên tục khi tham gia giao thông trên đường.",
+      "Xúc phạm, đe dọa, cản trở, chống đối hoặc không chấp hành hiệu lệnh, hướng dẫn, yêu cầu kiểm tra, kiểm soát của người thi hành công vụ về bảo đảm trật tự, an toàn giao thông đường bộ.",
+      "Cả hai ý trên."
+    ],
+    "answer": 2,
+    "explanation": "Theo Khoản 4 và 5 Điều 9 Luật Trật tự, ATGT đường bộ 2024, các hành vi sau bị nghiêm cấm: Xúc phạm, đe dọa, cản trở, chống đối hoặc không chấp hành hiệu lệnh, hướng dẫn, yêu cầu kiểm tra, kiểm soát của người thi hành công vụ về bảo đảm trật tự, an toàn giao thông đường bộ. Đua xe, tổ chức đua xe, xúi giục, giúp sức, cổ vũ đua xe trái phép; điều khiển phương tiện tham gia giao thông đường bộ lạng lách, đánh võng, rú ga liên tục."
+  },
+  {
+    "id": 22,
+    "question": "Các hành vi nào sau đây bị cấm đối với phương tiện tham gia giao thông đường bộ?",
+    "options": [
+      "Cải tạo xe ô tô loại khác thành xe ô tô chở người phục vụ mục đích quốc phòng, an ninh.",
+      "Cải tạo trái phép; cố ý can thiệp làm sai lệch chỉ số trên đồng hồ báo quãng đường đã chạy của xe ô tô; cắt, hàn, tẩy xóa, đục sửa, đóng lại trái phép số khung, số động cơ của xe cơ giới, xe máy chuyên dùng."
+    ],
+    "answer": 1,
+    "explanation": "Theo Khoản 11 Điều 9 Luật Trật tự, ATGT đường bộ 2024:Cải tạo trái phép; cố ý can thiệp làm sai lệch chỉ số trên đồng hồ báo quãng đường đã chạy của xe ô tô; cắt, hàn, tẩy xóa, đục sửa, đóng lại trái phép số khung, số động cơ của xe cơ giới, xe máy chuyên dùng là hành vi bị nghiêm cấm."
+  },
+  {
+    "id": 23,
+    "question": "Hành vi nào sau đây bị cấm?",
+    "options": [
+      "Lắp đặt, sử dụng thiết bị âm thanh, ánh sáng trên xe cơ giới, xe máy chuyên dùng gây mất trật tự, an toàn giao thông đường bộ.",
+      "Cản trở người, phương tiện tham gia giao thông trên đường bộ; ném gạch, đất, đá, cát hoặc vật thể khác vào người, phương tiện đang tham gia giao thông trên đường bộ.",
+      "Cả hai ý trên."
+    ],
+    "answer": 2,
+    "explanation": "Theo Khoản 16 và 21 Điều 9 Luật Trật tự, ATGT đường bộ 2024, các hành vi sau bị nghiêm cấm:"
+  },
+  {
+    "id": 24,
+    "question": "Việc sản xuất, sử dụng, mua, bán trái phép biển số xe có bị nghiêm cấm hay không?",
+    "options": [
+      "Không bị nghiêm cấm.",
+      "Bị nghiêm cấm.",
+      "Bị nghiêm cấm tuỳ trường hợp."
+    ],
+    "answer": 1,
+    "explanation": "Theo Khoản 17 Điều 9 Luật Trật tự, ATGT đường bộ 2024: Tuyệt đối nghiêm cấm các hành vi liên quan đến biển số xe như sản xuất, mua bán, sử dụng trái phép; gắn biển số không do cơ quan có thẩm quyền cấp hoặc gắn sai vị trí; bẻ cong, che lấp; tự ý thay đổi chữ, số, màu sắc, hình dạng, kích thước."
+  },
+  {
+    "id": 25,
+    "question": "Khi điều khiển phương tiện tham gia giao thông, những hành vi nào dưới đây bị nghiêm cấm?",
+    "options": [
+      "Thay đổi tốc độ của xe nhiều lần.",
+      "Điều khiển phương tiện sau 23 giờ trong ngày.",
+      "Lạng lách, đánh võng, rú ga liên tục."
+    ],
+    "answer": 2,
+    "explanation": "Theo Khoản 5 Điều 9 Luật Trật tự, ATGT đường bộ 2024: Tuyệt đối nghiêm cấm hành vi đua xe trái phép, tổ chức, xúi giục, giúp sức hoặc cổ vũ đua xe; nghiêm cấm điều khiển phương tiện lạng lách, đánh võng, rú ga liên tục."
+  },
+  {
+    "id": 26,
+    "question": "Có bao nhiêu nhóm biển báo hiệu đường bộ?",
+    "options": [
+      "Ba nhóm: Biển báo cấm, biển báo nguy hiểm và biển hiệu lệnh.",
+      "Bốn nhóm: Biển báo cấm, biển báo nguy hiểm, biển hiệu lệnh và biển phụ.",
+      "Năm nhóm: Biển báo cấm, biển báo nguy hiểm, biển hiệu lệnh, biển chỉ dẫn, biển phụ."
+    ],
+    "answer": 2,
+    "explanation": "Theo Khoản 5 Điều 11 Luật Trật tự, ATGT đường bộ 2024: Báo hiệu của biển báo hiệu đường bộ được quy định như sau: \na) Biển báo cấm để biểu thị các điều cấm;\nb) Biển báo nguy hiểm để cảnh báo các tình huống nguy hiểm có thể xảy ra;\nc) Biển hiệu lệnh để báo hiệu lệnh phải thi hành;\nd) Biển chỉ dẫn để chỉ dẫn hướng đi hoặc các điều cần biết;\nđ) Biển phụ để thuyết minh bổ sung cho biển báo cấm, biển báo nguy hiểm, biển hiệu lệnh và biển chỉ dẫn."
+  },
+  {
+    "id": 27,
+    "question": "Tại nơi có vạch kẻ đường hoặc tại nơi mà người đi bộ, xe lăn của người khuyết tật đang qua đường, người điều khiển phương tiện tham gia giao thông phải thực hiện như thế nào?",
+    "options": [
+      "Giảm tốc độ và nhường đường cho người đi bộ, xe lăn của người khuyết tật qua đường đảm bảo an toàn.",
+      "Quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn cho người đi bộ, xe lăn của người khuyết tật qua đường.",
+      "Quan sát, tăng tốc độ và điều khiển phương tiện nhanh chóng đi qua."
+    ],
+    "answer": 1,
+    "explanation": "Theo Điểm a Khoản 3 Điều 12 Luật Trật tự, ATGT đường bộ 2024: Người điều khiển phương tiện tham gia giao thông đường bộ phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn tại nơi có vạch kẻ đường hoặc báo hiệu khác dành cho người đi bộ hoặc tại nơi mà người đi bộ, xe lăn của người khuyết tật đang qua đường."
+  },
+  {
+    "id": 28,
+    "question": "Người điều khiển xe mô tô phải phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn trong các trường hợp nào dưới đây?",
+    "options": [
+      "Đường hẹp, đường vòng, đường quanh co, đường đèo, dốc.",
+      "Nơi cầu, cống hẹp, đập tràn, đường ngầm, hầm chui, hầm đường bộ.",
+      "Trời mưa, gió, sương, khói, bụi, mặt đường trơn trượt, lầy lội, có nhiều đất đá, vật liệu rơi vãi ảnh hưởng đến an toàn giao thông đường bộ.",
+      "Cả ba ý trên."
+    ],
+    "answer": 3,
+    "explanation": "Theo Điểm d, đ, m Khoản 3 Điều 12 Luật Trật tự, ATGT đường bộ 2024: Người điều khiển phương tiện tham gia giao thông đường bộ phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn tại: Nơi đường bộ giao nhau cùng mức với đường bộ, đường bộ giao nhau cùng mức với đường sắt; đường hẹp, đường vòng, đường quanh co, đường đèo, dốc; Nơi cầu, cống hẹp, đập tràn, đường ngầm, hầm chui, hầm đường bộ; Điều kiện trời mưa, gió, sương, khói, bụi, mặt đường trơn trượt, lầy lội, có nhiều đất đá, vật liệu rơi vãi ảnh hưởng đến an toàn giao thông đường bộ."
+  },
+  {
+    "id": 29,
+    "question": "Khi gặp hiệu lệnh điều khiển của Cảnh sát giao thông như hình dưới đây thì người tham gia giao thông đường bộ phải đi như thế nào là đúng quy tắc giao thông?",
+    "image": "/appthibanglaixe/Assets/image/cau_29_image.png",
+    "options": [
+      "Người tham gia giao thông đường bộ ở các hướng phải dừng lại.",
+      "Người tham gia giao thông đường bộ ở các hướng được đi theo chiều gậy chỉ của Cảnh sát giao thông.",
+      "Người tham gia giao thông đường bộ ở phía trước và phía sau người điều khiển được đi tất cả các hướng; người tham gia giao thông đường bộ ở phía bên phải và phía bên trái người điều khiển phải dừng lại.",
+      "Người tham gia giao thông đường bộ ở phía trước và phía sau người điều khiển phải dừng lại; người tham gia giao thông đường bộ ở phía bên phải và phía bên trái người điều khiển được đi tất cả các hướng."
+    ],
+    "answer": 3,
+    "explanation": "Theo Điểm b Khoản 3 Điều 11 Luật Trật tự, ATGT đường bộ 2024: Hai tay hoặc một tay dang ngang để báo hiệu cho người tham gia giao thông đường bộ ở phía trước và ở phía sau người điều khiển giao thông phải dừng lại; người tham gia giao thông đường bộ ở phía bên phải và bên trái người điều khiển giao thông được đi."
+  },
+  {
+    "id": 30,
+    "question": "Khi gặp hiệu lệnh điều khiển của Cảnh sát giao thông như hình dưới đây thì người tham gia giao thông đường bộ phải đi như thế nào là đúng quy tắc giao thông?",
+    "image": "/appthibanglaixe/Assets/image/cau_30_image.png",
+    "options": [
+      "Người tham gia giao thông đường bộ ở phía sau Cảnh sát giao thông được đi, các hướng khác phải dừng lại.",
+      "Người tham gia giao thông đường bộ được rẽ phải theo chiều mũi tên màu xanh ở bục Cảnh sát giao thông.",
+      "Người tham gia giao thông đường bộ ở tất cả các hướng phải dừng lại, trừ các xe đã ở trong khu vực giao nhau.",
+      "Người tham gia giao thông đường bộ ở phía trước Cảnh sát giao thông phải dừng lại, các hướng khác được đi."
+    ],
+    "answer": 2,
+    "explanation": "Theo Điểm a Khoản 3 Điều 11 Luật Trật tự, ATGT đường bộ 2024: Tay bên phải giơ thẳng đứng để báo hiệu cho người tham gia giao thông đường bộ ở tất cả các hướng phải dừng lại, trừ các xe đã ở trong khu vực giao nhau."
   }
 ]
