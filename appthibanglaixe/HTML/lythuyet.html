@@ -13,28 +13,39 @@
   <link rel="stylesheet" href="/appthibanglaixe/CSS/lythuyet.css">
 </head>
 <body>
-  <h1 id="tieude"><b>250 Câu Hỏi Lý Thuyết thi bằng lái xe hạng A, A1</b></h1>
+  <nav class="navbar">
+    <ul>
+      <li><a href="HTML/lythuyet.html">Lý Thuyết Ôn Tập</a></li>
+      <li><a href="#">Thi Thử A1</a></li>
+      <li><a href="#">Thi 20 Câu Điểm Liệt</a></li>
+    </ul>
+  </nav>
 
-  <!-- Nơi hiển thị câu hỏi -->
-  <div id="questions"></div>
+  <header class="banner">
+    <h1><b>250 Câu Hỏi Lý Thuyết thi bằng lái xe hạng A, A1</b></h1>
+  </header>
+  
+  <main class="container">
+    <!-- Nơi hiển thị câu hỏi -->
+    <div id="questions"></div>
 
-  <!-- Pagination -->
-  <div id="pagination" style="margin-top:20px; text-align:center;">
-    <button id="prev">⬅ Trang trước</button>
+    <!-- Pagination -->
+    <div id="pagination">
+      <button id="prev">⬅ Trang trước</button>
     
-    <span id="pageNumbers"></span>
+      <span id="pageNumbers"></span>
     
-    <button id="next">Trang sau ➡</button>
+      <button id="next">Trang sau ➡</button>
     
-    <br><br>
-    <label for="pageInput">Nhảy đến trang: </label>
-    <input type="number" id="pageInput" min="1" value="1" style="width:60px;"/>
-    <button id="goPage">Đi</button>
+      <br><br>
+      <label for="pageInput">Nhảy đến trang: </label>
+      <input type="number" id="pageInput" min="1" value="1" style="width:60px;"/>
+      <button id="goPage">Đi</button>
     
-    <div id="pageInfo" style="margin-top:10px;"></div>
-  </div>
-
-
+      <div id="pageInfo"></div>
+    </div>
+  </main>
+  
   <script src="/appthibanglaixe/JS/lythuyet.js"></script>
 </body>
 </html>
