@@ -44,9 +44,9 @@ function renderPage(page) {
 
     qDiv.innerHTML = `
       <h3>Câu ${q.id}: ${q.question}</h3>
-      ${q.image ? `<img src="${q.image}" alt="Câu ${q.id}" style="max-width:400px; display:block; margin:10px 0;">` : ""}
-      <ol type="A">${optionsHTML}</ol>
-      ${q.explanation ? `<p><b>Giải thích:</b> ${q.explanation}</p>` : ""}
+      ${q.image ? `<img src="${q.image}" alt="Câu ${q.id}">` : ""}
+      <ol type="A">${optionsHTML}</ol><br>
+      ${q.explanation ? `<p><b>Giải thích:</b> ${q.explanation}</p>` : ""}<br>
     `;
     container.appendChild(qDiv);
   });
