@@ -1750,5 +1750,33 @@
     "image": "appthibanglaixe/Assets/image/cau_169.jpg",
     "options": ["Biển 1.", "Biển 2 ", "Biển 3.", "Biển 2 và biển 3."],
     "answer": 0
+  },
+  {
+    "id": 171,
+    "question": "Biển nào báo hiệu “Đường giao nhau” của các tuyến đường cùng cấp?",
+    "image": "appthibanglaixe/Assets/image/cau_171.png",
+    "options": ["Biển 1.", "Biển 2.", "Biển 3."],
+    "answer": 0
+  },
+  {
+    "id": 172,
+    "question": "Biển nào báo hiệu “Đường hai chiều”?",
+    "image": "appthibanglaixe/Assets/image/cau_172.jpg",
+    "options": ["Biển 1.", "Biển 2.", "Biển 3."],
+    "answer": 0
+  },
+  {
+    "id": 173,
+    "question": "Biển nào báo hiệu phải giảm tốc độ, nhường đường cho xe cơ giới đi ngược chiều qua đường hẹp?",
+    "image": "/appthibanglaixe/Assets/image/cau_173.jpg",
+    "options": ["Biển 1.", "Biển 2.", "Biển 3."],
+    "answer": 1
+  },
+  {
+    "id": 174,
+    "question": "Biển nào chỉ dẫn “Được ưu tiên qua đường hẹp”?",
+    "image": "appthibanglaixe/Assets/image/cau_174.jpg",
+    "options": ["Biển 1.", "Biển 2.", "Biển 3.", "Biển 2 và biển 3."],
+    "answer": 2
   }
 ]
