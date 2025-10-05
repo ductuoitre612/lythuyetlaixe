@@ -1,3 +1,17 @@
+// Lythuyet.html self-reload
+(function () {
+  var link = document.getElementById('reload-lythuyet');
+    if (!link) return;
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      try {
+        location.reload();
+      } catch (err) {
+        location.href = location.pathname + location.search + location.hash;
+      }
+    });
+})();
+
 // Nút prev/next
 document.getElementById("prev").addEventListener("click", () => {
   if (currentPage > 1) {
