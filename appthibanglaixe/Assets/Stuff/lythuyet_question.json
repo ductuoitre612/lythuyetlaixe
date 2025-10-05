@@ -1407,5 +1407,38 @@
     "image": "appthibanglaixe/Assets/image/cau_129.jpeg",
     "options": ["Biển 1.", "Biển 2.", "Biển 3."],
     "answer": 0
+  },
+  {
+    "id": 130,
+    "question": "Khi gặp biển nào thì xe mô tô hai bánh được đi vào?",
+    "image": "appthibanglaixe/Assets/image/cau_130.jpeg",
+    "options": [
+      "Không biển nào.",
+      "Biển 1 và biển 2.",
+      "Biển 2 và biển 3.",
+      "Cả ba biển."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 131,
+    "question": "Biển nào cấm quay đầu xe?",
+    "image": "appthibanglaixe/Assets/image/cau_131.jpeg",
+    "options": ["Biển 1.", "Biển 2.", "Không biển nào.", "Cả hai biển."],
+    "answer": 1
+  },
+  {
+    "id": 132,
+    "question": "Biển nào cấm xe rẽ trái?",
+    "image": "appthibanglaixe/Assets/image/cau_132.jpeg",
+    "options": ["Biển 1.", "Biển 2.", "Cả hai biển."],
+    "answer": 0
+  },
+  {
+    "id": 133,
+    "question": "Khi gặp biển nào xe được rẽ trái?",
+    "image": "appthibanglaixe/Assets/image/cau_133.jpeg",
+    "options": ["Biển 1.", "Biển 2.", "Không biển nào."],
+    "answer": 1
   }
 ]
