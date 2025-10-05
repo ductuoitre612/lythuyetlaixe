@@ -1752,6 +1752,13 @@
     "answer": 0
   },
   {
+    "id": 170,
+    "question": "Biển nào báo hiệu “Giao nhau với đường ưu tiên”?",
+    "image": "appthibanglaixe/Assets/image/cau_170.png",
+    "options": ["Biển 1.", "Biển 2.", "Biển 3.", "Cả ba biển."],
+    "answer": 2
+  },
+  {
     "id": 171,
     "question": "Biển nào báo hiệu “Đường giao nhau” của các tuyến đường cùng cấp?",
     "image": "appthibanglaixe/Assets/image/cau_171.png",
