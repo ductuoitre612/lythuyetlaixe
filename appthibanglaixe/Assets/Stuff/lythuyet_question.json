@@ -1409,6 +1409,356 @@
     "answer": 0
   },
   {
+    "id": 130,
+    "question": "Khi gặp biển nào thì xe mô tô hai bánh được đi vào?",
+    "image": "appthibanglaixe/Assets/image/cau_130.jpeg",
+    "options": [
+      "Không biển nào.",
+      "Biển 1 và biển 2.",
+      "Biển 2 và biển 3.",
+      "Cả ba biển."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 131,
+    "question": "Biển nào cấm quay đầu xe?",
+    "image": "appthibanglaixe/Assets/image/cau_131.jpeg",
+    "options": ["Biển 1.", "Biển 2.", "Không biển nào.", "Cả hai biển."],
+    "answer": 1
+  },
+  {
+    "id": 132,
+    "question": "Biển nào cấm xe rẽ trái?",
+    "image": "appthibanglaixe/Assets/image/cau_132.jpeg",
+    "options": ["Biển 1.", "Biển 2.", "Cả hai biển."],
+    "answer": 0
+  },
+  {
+    "id": 133,
+    "question": "Khi gặp biển nào xe được rẽ trái?",
+    "image": "appthibanglaixe/Assets/image/cau_133.jpeg",
+    "options": ["Biển 1.", "Biển 2.", "Không biển nào."],
+    "answer": 1
+  },
+  {
+    "id": 134,
+    "question": "Biển nào báo hiệu cấm rẽ phải?",
+    "image": "appthibanglaixe/Assets/image/cau_134.jpg",
+    "options": [
+      "Biển 1 và biển 2.",
+      "Biển 1 và biển 3.",
+      "Biển 2 và biển 3.",
+      "Cả ba biển."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 135,
+    "question": "Biển nào cấm các phương tiện rẽ trái?",
+    "image": "appthibanglaixe/Assets/image/cau_135.jpg",
+    "options": [
+      "Biển 1 và biển 2.",
+      "Biển 1 và biển 3.",
+      "Biển 2 và biển 3.",
+      "Cả ba biển."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 136,
+    "question": "Biển nào báo hiệu cấm rẽ trái?",
+    "image": "appthibanglaixe/Assets/image/cau_136.jpg",
+    "options": ["Biển 1.", "Biển 2.", "Không biển nào."],
+    "answer": 1
+  },
+  {
+    "id": 137,
+    "question": "Biển nào xe quay đầu không bị cấm?",
+    "image": "appthibanglaixe/Assets/image/cau_137.jpg",
+    "options": ["Biển 1.", "Biển 2.", "Cả hai biển."],
+    "answer": 2
+  },
+  {
+    "id": 138,
+    "question": "Biển nào xe được phép quay đầu nhưng không được rẽ trái?",
+    "image": "appthibanglaixe/Assets/image/cau_138.png",
+    "options": ["Biển 1.", "Biển 2.", "Cả hai biển."],
+    "answer": 0
+  },
+  {
+    "id": 139,
+    "question": "Biển nào là biển “Cấm đi ngược chiều?",
+    "image": "appthibanglaixe/Assets/image/cau_139.png",
+    "options": ["Biển 1.", "Biển 2.", "Biển 3."],
+    "answer": 1
+  },
+  {
+    "id": 140,
+    "question": "Biển nào dưới đây các phương tiện không được phép đi vào?",
+    "image": "appthibanglaixe/Assets/image/cau_140.png",
+    "options": ["Biển 1.", "Biển 2.", "Biển 1 và biển 2."],
+    "answer": 2
+  },
+  {
+    "id": 141,
+    "question": "Khi gặp biển nào xe ưu tiên theo luật định vẫn phải dừng lại?",
+    "image": "appthibanglaixe/Assets/image/cau_141.png",
+    "options": ["Biển 1.", "Biển 2.", "Cả ba biển."],
+    "answer": 1
+  },
+  {
+    "id": 142,
+    "question": "Biển nào cấm tất cả các loại xe cơ giới và thô sơ đi lại trên đường, trừ xe ưu tiên theo luật định (nếu đường vẫn cho xe chạy được)?",
+    "image": "appthibanglaixe/Assets/image/cau_142.png",
+    "options": ["Biển 1.", "Biển 2.", "Cả hai biển."],
+    "answer": 0
+  },
+  {
+    "id": 143,
+    "question": "Biển báo này có ý nghĩa như thế nào?",
+    "image": "appthibanglaixe/Assets/image/cau_143.png",
+    "options": [
+      "Tốc độ tối đa cho phép về ban đêm cho các phương tiện là 70 km/h.",
+      "Tốc độ tối thiểu cho phép về ban đêm cho các phương tiện là 70 km/h."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 144,
+    "question": "Biển này có hiệu lực đối với xe mô tô hai bánh, ba bánh chở hàng không?",
+    "image": "appthibanglaixe/Assets/image/cau_144.jpg",
+    "options": ["Có.", "Không."],
+    "answer": 0
+  },
+  {
+    "id": 145,
+    "question": "Biển này có ý nghĩa như thế nào?",
+    "image": "appthibanglaixe/Assets/image/cau_145.jpgz",
+    "options": [
+      "Cấm xe cơ giới (trừ xe ưu tiên theo luật định) đi thẳng.",
+      "Cấm các loại xe cơ giới và xe mô tô (trừ xe ưu tiên theo luật định) đi về bên trái và bên phải.",
+      "Hướng trái và phải không cấm xe cơ giới."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 146,
+    "question": "Biển phụ đặt dưới biển cấm bóp còi có ý nghĩa như thế nào?",
+    "image": "appthibanglaixe/Assets/image/cau_146.png",
+    "options": [
+      "Báo khoảng cách đến nơi cấm bóp còi.",
+      "Chiều dài đoạn đường cấm bóp còi từ nơi đặt biển.",
+      "Báo cấm dùng còi có độ vang xa 500m."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 147,
+    "question": "Chiều dài đoạn đường 500 m từ nơi đặt biển này, người lái xe có được phép bấm còi không?",
+    "image": "appthibanglaixe/Assets/image/cau_147.jpg",
+    "options": ["Được phép.", "Không được phép."],
+    "answer": 0
+  },
+  {
+    "id": 148,
+    "question": "Biển nào xe mô tô hai bánh được đi vào?",
+    "image": "appthibanglaixe/Assets/image/cau_148.jpg",
+    "options": ["Biển 1 và biển 2.", "Biển 1 và biển 3.", "Biển 2 và biển 3."],
+    "answer": 1
+  },
+  {
+    "id": 149,
+    "question": "Biển nào xe mô tô hai bánh không được đi vào?",
+    "image": "appthibanglaixe/Assets/image/cau_149.jpg",
+    "options": ["Biển 1.", "Biển 2.", "Biển 3."],
+    "answer": 1
+  },
+  {
+    "id": 150,
+    "question": "Ba biển này có hiệu lực như thế nào?",
+    "image": "appthibanglaixe/Assets/image/cau_150.jpg",
+    "options": [
+      "Cấm các loại xe ở biển phụ đi vào.",
+      "Cấm các loại xe cơ giới đi vào trừ loại xe ở biển phụ."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 151,
+    "question": "Biển này có ý nghĩa như thế nào?",
+    "image": "appthibanglaixe/Assets/image/cau_151.jpg",
+    "options": [
+      "Cấm dừng xe về hướng bên trái.",
+      "Cấm dừng và đỗ xe theo hướng bên phải.",
+      "Được phép đỗ xe và dừng xe theo hướng bên phải."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 152,
+    "question": "Biển nào là biển “Tốc độ tối đa cho phép về ban đêm?",
+    "image": "appthibanglaixe/Assets/image/cau_152.png",
+    "options": ["Biển 1.", "Biển 2.", "Cả hai biển."],
+    "answer": 0
+  },
+  {
+    "id": 153,
+    "question": "Biển nào báo hiệu hạn chế tốc độ của phương tiện không vượt quá trị số ghi trên biển?",
+    "image": "appthibanglaixe/Assets/image/cau_153.png",
+    "options": ["Biển 1.", "Biển 2."],
+    "answer": 1
+  },
+  {
+    "id": 154,
+    "question": "Số 50 ghi trên biển báo dưới đây có ý nghĩa như thế nào?",
+    "image": "appthibanglaixe/Assets/image/cau_154.png",
+    "options": [
+      "Tốc độ tối đa các xe cơ giới được phép chạy.",
+      "Tốc độ tối thiểu các xe cơ giới được phép chạy."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 155,
+    "question": "Biển báo dưới đây có ý nghĩa như thế nào?",
+    "image": "appthibanglaixe/Assets/image/cau_155.jpg",
+    "options": [
+      "Báo hiệu tốc độ tối đa cho phép các xe cơ giới chạy.",
+      "Biển 2."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 156,
+    "question": "Gặp biển nào người lái xe phải nhường đường cho người đi bộ?",
+    "image": "appthibanglaixe/Assets/image/cau_156.jpg",
+    "options": ["Biển 1.", "Biển 2.", "Biển 3."],
+    "answer": 0
+  },
+  {
+    "id": 157,
+    "question": "Gặp biển nào người lái xe phải nhường đường cho người đi bộ?",
+    "image": "appthibanglaixe/Assets/image/cau_157.jpg",
+    "options": ["Biển 1.", "Biển 1 và biển 3.", "Biển 3.", "Cả ba biển"],
+    "answer": 2
+  },
+  {
+    "id": 158,
+    "question": "Biển nào báo hiệu “Đường dành cho xe thô sơ”?",
+    "image": "appthibanglaixe/Assets/image/cau_158.png",
+    "options": ["Biển 1.", "Biển 2.", "Biển 3."],
+    "answer": 0
+  },
+  {
+    "id": 159,
+    "question": "Biển nào báo hiệu sắp đến chỗ giao nhau nguy hiểm?",
+    "image": "appthibanglaixe/Assets/image/cau_159.png",
+    "options": [
+      "Biển 1.",
+      "Biển 1 và biển 2.",
+      "Biển 2 và biển 3.",
+      "Cả ba biển."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 160,
+    "question": "Biển nào báo hiệu “Giao nhau với đường sắt có rào chắn”?",
+    "image": "appthibanglaixe/Assets/image/cau_160.png",
+    "options": ["Biển 1.", "Biển 2 và biển 3.", "ba biển."],
+    "answer": 0
+  },
+  {
+    "id": 161,
+    "question": "Biển nào báo hiệu “Giao nhau với đường sắt có rào chắn”?",
+    "image": "appthibanglaixe/Assets/image/cau_161.png",
+    "options": ["Biển 1.", "Biển 2 ", "Biển 3.", "Cả ba biển."],
+    "answer": 2
+  },
+  {
+    "id": 162,
+    "question": "Biển nào báo hiệu nguy hiểm giao nhau với đường sắt?",
+    "image": "appthibanglaixe/Assets/image/cau_162.png",
+    "options": [
+      "Biển 1 và biển 2.",
+      "Biển 1 và biển 3. ",
+      "Biển 2 và biển 3.",
+      "Cả ba biển."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 163,
+    "question": "Biển nào báo hiệu đường bộ giao nhau với đường sắt không có rào chắn?",
+    "image": "appthibanglaixe/Assets/image/cau_163.png",
+    "options": [
+      "Biển 1 và biển 2.",
+      "Biển 1 và biển 3. ",
+      "Biển 2 và biển 3.",
+      "Cả ba biển."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 164,
+    "question": "Biển nào báo hiệu đường bộ giao nhau với đường sắt không có rào chắn?",
+    "image": "appthibanglaixe/Assets/image/cau_164.jpg",
+    "options": ["Biển 1.", "Biển 2.", "Biển 3.", "Biển 1 và biển 3."],
+    "answer": 0
+  },
+  {
+    "id": 165,
+    "question": "Biển nào báo hiệu “Cửa chui”?",
+    "image": "appthibanglaixe/Assets/image/cau_165.jpg",
+    "options": ["Biển 1.", "Biển 2.", "Biển 3."],
+    "answer": 1
+  },
+  {
+    "id": 166,
+    "question": "Hai biển này có ý nghĩa như thế nào?",
+    "image": "appthibanglaixe/Assets/image/cau_166.jpg",
+    "options": [
+      "Để chỉ nơi đường sắt giao vuông góc với đường bộ không có rào chắn.",
+      "Để báo trước sắp đến vị trí giao cắt đường bộ với đường sắt cùng mức, không vuông góc và không có người gác, không có rào chắn.",
+      "Nơi đường sắt giao nhau với đường bộ."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 167,
+    "question": "Hai biển này có ý nghĩa như thế nào?",
+    "image": "appthibanglaixe/Assets/image/cau_167.jpg",
+    "options": ["Biển 1", "Biển 2", "Biển 3"],
+    "answer": 2
+  },
+  {
+    "id": 168,
+    "question": "Biển nào báo hiệu, chỉ dẫn xe đi trên đường này được quyền ưu tiên qua nơi giao nhau?",
+    "image": "appthibanglaixe/Assets/image/cau_168.jpg",
+    "options": [
+      "Biển 1 và biển 2.",
+      "Biển 1 và biển 3.",
+      "Biển 2 và biển 3.",
+      "Cả ba biển."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 169,
+    "question": "Biển nào báo hiệu “Giao nhau với đường không ưu tiên”?",
+    "image": "appthibanglaixe/Assets/image/cau_169.jpg",
+    "options": ["Biển 1.", "Biển 2 ", "Biển 3.", "Biển 2 và biển 3."],
+    "answer": 0
+  },
+  {
+    "id": 170,
+    "question": "Biển nào báo hiệu “Giao nhau với đường ưu tiên”?",
+    "image": "appthibanglaixe/Assets/image/cau_170.png",
+    "options": ["Biển 1.", "Biển 2.", "Biển 3.", "Cả ba biển."],
+    "answer": 2
+  },
+  {
     "id": 171,
     "question": "Biển nào báo hiệu “Đường giao nhau” của các tuyến đường cùng cấp?",
     "image": "/appthibanglaixe/Assets/image/cau_171.png",
