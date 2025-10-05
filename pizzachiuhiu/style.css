@@ -44,6 +44,10 @@ header {
   top: 0;
   position: fixed;
 }
+.navbar.scrolled {
+  background-color: #000;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
 .nav_items {
   display: flex;
   justify-content: space-between;
@@ -128,4 +132,160 @@ header {
 }
 .btn2:hover i {
   color: #fff;
+}
+
+/* Dich vu */
+.sec {
+  padding: 8% 0 3% 0;
+  width: 85%;
+  margin: auto;
+}
+.head {
+  text-align: center;
+}
+.heading span {
+  color: orangered;
+}
+.head .heading {
+  font-family: "Lato", sans-serif;
+}
+.head .heading_1 {
+  font-family: "playwrite CU", cursive;
+  color: aliceblue;
+  padding: 1.4cm;
+  font-size: 1.7cm;
+}
+.boxes {
+  margin-top: 4rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr); /*chia 3 cot*/
+}
+.box {
+  text-align: center;
+  padding: 5% 0;
+  box-shadow: rgba(0, 0, 0, 1.35) 0 5px 15px;
+  border: 2px solid transparent;
+}
+.box img {
+  width: 150px;
+}
+.box p {
+  max-width: 275px;
+  margin-inline: auto;
+  text-align: center;
+  line-height: 1.75rem;
+  color: #888;
+}
+box.h4 {
+  margin: 1rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.box:hover {
+  border: 2px solid #fff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+/* Gioi thieu */
+.about_heading {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 6cm;
+  align-items: center;
+}
+.about .heading_1,
+.about .heading {
+  grid-column: 1;
+}
+.about.para {
+  grid-column: 2;
+  text-align: right;
+  color: #777;
+}
+.about .heading_1 {
+  font-size: 1.2cm;
+}
+.about_box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 5%;
+}
+.para1 {
+  color: #888;
+  padding-bottom: 5%;
+}
+.box1 {
+  background-color: #ffeedc;
+  box-shadow: rgba(0, 0, 0, 2.24) 0 3px 8px;
+  border: 5px solid chocolate;
+}
+.box1 img {
+  width: 100%;
+}
+.box1_text {
+  padding: 4%;
+}
+.box1_text button::hover {
+  color: #000;
+}
+/* Lien he */
+.contact {
+  margin-top: 6%;
+  width: 100%;
+  background-color: #312c2a;
+}
+.contact_box {
+  display: grid;
+  width: 85%;
+  align-items: auto;
+  grid-template-columns: 1fr 1fr;
+}
+.left_box .heading_1 {
+  color: orangered;
+}
+.right_box {
+  text-align: right;
+}
+.right_box img {
+  width: 100%;
+}
+/* footer */
+.footer_container {
+  display: grid;
+  gap: 4rem 2rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+.footer_logo img {
+  max-width: 40px;
+}
+.footer_logo span {
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+.footer_col .food_text {
+  max-width: 350px;
+  color: #999;
+  margin: 2rem 0;
+}
+.footer_socials {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+}
+.footer_socials a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: 3%;
+}
+.footer_socials a:hover {
+  background-color: orangered;
+}
+.footer_col h4 {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
