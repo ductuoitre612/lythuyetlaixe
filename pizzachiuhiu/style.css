@@ -289,3 +289,127 @@ box.h4 {
   font-size: 1.8rem;
   font-weight: 600;
 }
+.footer_links {
+  display: grid;
+  gap: 1rem;
+  list-style: none;
+}
+.footer_links a {
+  text-decoration: none;
+  color: #999;
+}
+.footer_links a:hover {
+  color: orangered;
+}
+.footer_bar {
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* scroll-up */
+.top {
+  background-color: orangered;
+  font-size: 40px;
+  padding: 0.5rem;
+  position: fixed;
+  border-radius: 10%;
+  right: 5%;
+  cursor: pointer;
+  bottom: -50%;
+}
+.top::hover {
+  transform: translate(-0.6rem);
+}
+.top.show {
+  bottom: 8%;
+}
+@media only screen and (max-width: 1050px) {
+  .about_heading {
+    gap: 0 2cm;
+  }
+  .about_box .boxes {
+    gap: 1cm;
+  }
+
+  .box1_text .btn {
+    padding: 9px;
+    font-size: 15px;
+  }
+  .left_box .heading {
+    font-size: 2.5cm;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .nav_items {
+    position: absolute;
+    top: -1%;
+    left: 0;
+    width: 100%;
+    padding: 5cm 0cm 2cm 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 0.9rem;
+    background-color: #000;
+    z-index: -1;
+    transform: translateY(-100%);
+  }
+  .nav_items.open {
+    transform: translateY(0);
+  }
+  .item {
+    flex-direction: column;
+  }
+  .nav_menu {
+    display: block;
+    font-size: 2cm;
+  }
+  .boxes,
+  .about_box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact_box {
+    grid-template-columns: 1fr;
+  }
+  .footer_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (max-width: 850px) {
+  .about_heading {
+    grid-template-columns: 1fr;
+  }
+  .about .para {
+    grid-column: 1;
+  }
+  .boxes,
+  .about_box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .navbar {
+    padding: 2rem 2rem;
+  }
+  .heading {
+    font-size: 3cm;
+  }
+  .heading_1 {
+    font-size: 2cm;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  btn {
+    padding: 9px;
+    font-size: 15px;
+  }
+  .main {
+    width: 90%;
+  }
+}
