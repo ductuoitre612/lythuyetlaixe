@@ -1,199 +1,181 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.navbar {
-  background: #007bff;
-  padding: 10px 20px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.navbar ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-.navbar ul li {
-  margin: 0 15px;
-}
-.navbar ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-.navbar ul li a:hover {
-  text-decoration: underline;
-}
-
-.banner {
-  background: url("banner.jpg") no-repeat center center/cover;
-  color: rgb(227, 28, 28);
-  text-align: center;
-  padding: 50px 20px;
-}
-.banner h1 {
-  background: rgba(255, 255, 255, 0.5);
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 8px;
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-size: 1rem;
+    line-height: var(--base-line-height);
 }
 
 .container {
-  display: flex;
-  padding: 30px 10%;
-  gap: 30px;
-}
-.container .left {
-  flex: 1;
-}
-.container .right {
-  flex: 2;
-}
-.container .right h2 {
-  color: #007bff;
-  margin-bottom: 10px;
-}
-.container .right p {
-  margin-bottom: 10px;
-  line-height: 1.5;
-}
-.container .right ul {
-  margin-left: 20px;
-  line-height: 1.6;
+    position: relative;
+    min-height: 100vh;
+    background: url('/appthibanglaixe/Assets/pexels-joey-lu-49400-186537.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
 }
 
-.guide {
-  background: #f8f9fa;
-  padding: 30px 10%;
+.container::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url('/appthibanglaixe/Assets/pexels-joey-lu-49400-186537.jpg') center/cover no-repeat;
+    filter: blur(10px);
+    transform: scale(1.1);
+    z-index: 0;
 }
-.guide h2 {
-  margin-bottom: 20px;
-  color: #28a745;
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 4, 39, 0.6);
+    z-index: 1;
 }
-.guide ul {
-  list-style: none;
+
+.nav_bar {
+    backdrop-filter: blur(10px);
+    background: rgba(0, 8, 85, 0.4);
+    padding: 20px;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
-.guide li {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 20px;
+
+.nav_bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
-.circle {
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
-  text-align: center;
-  border-radius: 50%;
-  font-weight: bold;
+
+.nav_bar ul li {
+    margin: 0 30px;
+}
+
+.nav_bar ul li a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.nav_bar ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.3s ease;
+}
+
+.nav_bar ul li a:hover::after {
+    width: 100%;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+}
+
+.content .banner {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 60px;
+    color: rgb(255, 95, 95);
+}
+
+#info {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.exam_structure_and_guide {
+    display: flex;
+    margin: 30px;
+    font-size: 16px;
+    max-width: 1600px;
+}
+
+.right, .left {
+    margin: 0;
+    padding: 20px;
+    flex: 1;
+}
+
+.left {
+    border-right: 1px solid white;
+}
+
+.left h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.left ul {
+    list-style: none;
+}
+
+.left ul li {
+    margin-bottom: 32px;
+}
+
+.right h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.right ul {
+    list-style: none;
+}
+
+.right li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.exam_selection {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.exam_selection .title {
+    font-size: 30px;
+}
+
+.exam_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.exam_buttons button {
+  background: rgba(255, 255, 255, 0.1);
   color: white;
-  margin-right: 15px;
-}
-.blue {
-  background: #007bff;
-}
-.sky {
-  background: #17a2b8;
-}
-.red {
-  background: #dc3545;
-}
-.gray {
-  background: #6c757d;
-}
-.green {
-  background: #28a745;
-}
-
-.guide .content strong {
-  display: block;
-  margin-bottom: 5px;
-  color: #333;
-}
-
-.exam-section {
-  padding: 30px 10%;
-  text-align: center;
-}
-.exam-section h2 {
-  color: #ef1212;
-  margin-bottom: 10px;
-}
-.exam-section p {
-  margin-bottom: 20px;
-}
-.exam-buttons {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr); /* 5 cột mỗi dòng */
-  gap: 20px; /* khoảng cách giữa các ô */
-  max-width: 1000px; /* căn giữa */
-  margin: auto;
-}
-
-.exam-buttons button {
-  background: dodgerblue;
-  color: white;
-  border: none;
-  padding: 20px 30px;
-  border-radius: 10px;
-  font-size: 18px;
-  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 20px;
   cursor: pointer;
-  transition: 0.3s;
-}
-
-.exam-buttons button:hover {
-  background: darkblue;
-  transform: scale(1.05);
-}
-
-.exam-section {
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Theme toggle */
-.theme_button {
-  position: fixed;
-  top: 50px;
-  right: 20px;
-  background: none;
-  border: 2px solid #493c3c;
-  border-radius: 50%;
-  color: #4e4141;
-  font-size: 1.3rem;
-  cursor: pointer;
-  padding: 8px 12px;
+  backdrop-filter: blur(10px);
   transition: all 0.3s ease;
 }
 
-.theme-btn:hover {
-      background-color: rgba(0,0,0,0.2);
-}
-
-body.dark {
-  background-color: #0F172A;
-  background: linear-gradient(180deg,rgba(15, 23, 42, 1) 50%, rgba(21, 31, 61, 1) 100%);
-  color: #eee;
-}
-
-body.dark .theme_button {
-  border-color: #ddd;
-  color: #fff;
-  background: rgba(255,255,255,0.06);
-}
-
-body.dark .banner h1 {
-  background-color: #0F172A;
-}
-
-body.dark .guide {
-  background-color: #0F172A;
-}
-
-body.dark .guide strong {
-  color: #eee;
+.exam_buttons button:hover {
+    transform: translateY(-5px);
 }
