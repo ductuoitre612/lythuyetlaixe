@@ -27,6 +27,33 @@ document.getElementById("next").addEventListener("click", () => {
   }
 });
 
+// Jump to page via input/button
+const pageInputEl = document.getElementById('pageInput');
+const goPageBtn = document.getElementById('goPage');
+
+if (goPageBtn) {
+  goPageBtn.addEventListener('click', () => {
+    if (!questions || questions.length === 0) return; // nothing loaded yet
+    const totalPages = Math.max(1, Math.ceil(questions.length / perPage));
+    let val = parseInt(pageInputEl.value, 10);
+    if (Number.isNaN(val)) return;
+    // clamp
+    if (val < 1) val = 1;
+    if (val > totalPages) val = totalPages;
+    currentPage = val;
+    renderPage(currentPage);
+  });
+}
+
+if (pageInputEl) {
+  pageInputEl.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      if (goPageBtn) goPageBtn.click();
+    }
+  });
+}
+
 let questions = [];
 let currentPage = 1;
 const perPage = 10;
@@ -51,7 +78,7 @@ function renderPage(page) {
 
     let optionsHTML = q.options.map((opt, i) => {
       if (i === q.answer) {
-        return `<li style="color:red; font-weight:bold;">${opt}</li>`;
+        return `<li data-correct="true">${opt}</li>`;
       }
       return `<li>${opt}</li>`;
     }).join("");
@@ -91,18 +118,15 @@ function renderPagination(page) {
     }
   }
 
-  // nút đầu
   if (start > 1) {
     createPageButton(1);
     if (start > 2) addDots();
   }
 
-  // các nút giữa
   for (let i = start; i <= end; i++) {
     createPageButton(i, i === page);
   }
 
-  // nút cuối
   if (end < totalPages) {
     if (end < totalPages - 1) addDots();
     createPageButton(totalPages);
