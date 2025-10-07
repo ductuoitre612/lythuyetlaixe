@@ -58,7 +58,7 @@ body{
 
 .overlay{
   position:fixed; inset:0; z-index:1;
-  background: linear-gradient(150deg, rgba(2,6,23,0.75) 0%, rgba(36, 14, 17, 0.6) 100%);
+  background: linear-gradient(150deg, rgba(2,6,23,0.75) 0%, rgba(8, 8, 16, 0.6) 100%);
 }
 
 .nav_bar{
