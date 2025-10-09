@@ -1,0 +1,224 @@
+[
+  {
+    "id": 1,
+    "question": "Theo Luật Phòng chống tác hại của rượu, bia, đối tượng nào dưới đây bị cấm sử dụng rượu, bia khi tham gia giao thông?",
+    "options": [
+      "Người điều khiển xe ô tô, xe mô tô, xe đạp, xe gắn máy.",
+      "Người được chở trên xe cơ giới.",
+      "Cả hai ý trên."
+    ],
+    "answer": 0,
+    "explanation": "Người điều khiển phương tiện giao thông không uống rượu, bia trước và trong khi tham gia giao thông."
+  },
+  {
+    "id": 2,
+    "question": "Hành vi giao xe ô tô, mô tô cho người nào sau đây tham gia giao thông đường bộ bị nghiêm cấm?",
+    "options": [
+      "Người chưa đủ tuổi theo quy định.",
+      "Người không có giấy phép lái xe.",
+      "Người có giấy phép lái xe nhưng đã bị trừ hết 12 điểm.",
+      "Cả ba ý trên."
+    ],
+    "answer": 3,
+    "explanation": "Căn cứ Khoản 7 Điều 9 Luật Trật tự, an toàn giao thông đường bộ 2024: Nghiêm cấm tuyệt đối việc giao xe cơ giới, xe máy chuyên dùng cho người không đủ điều kiện điều khiển, như: chưa đủ tuổi, không có GPLX hoặc GPLX đã bị trừ hết điểm"
+  },
+  {
+    "id": 3,
+    "question": "Hành vi nào sau đây bị nghiêm cấm?",
+    "options": [
+      "Điều khiển xe cơ giới lạng lách, đánh võng, rú ga liên tục khi tham gia giao thông trên đường.",
+      "Xúc phạm, đe dọa, cản trở, chống đối hoặc không chấp hành hiệu lệnh, hướng dẫn, yêu cầu kiểm tra, kiểm soát của người thi hành công vụ về bảo đảm trật tự, an toàn giao thông đường bộ.",
+      "Cả hai ý trên."
+    ],
+    "answer": 2,
+    "explanation": "Theo Khoản 4 và 5 Điều 9 Luật Trật tự, ATGT đường bộ 2024, các hành vi sau bị nghiêm cấm: Xúc phạm, đe dọa, cản trở, chống đối hoặc không chấp hành hiệu lệnh, hướng dẫn, yêu cầu kiểm tra, kiểm soát của người thi hành công vụ về bảo đảm trật tự, an toàn giao thông đường bộ. Đua xe, tổ chức đua xe, xúi giục, giúp sức, cổ vũ đua xe trái phép; điều khiển phương tiện tham gia giao thông đường bộ lạng lách, đánh võng, rú ga liên tục."
+  },
+  {
+    "id": 4,
+    "question": "Các hành vi nào sau đây bị cấm đối với phương tiện tham gia giao thông đường bộ?",
+    "options": [
+      "Cải tạo xe ô tô loại khác thành xe ô tô chở người phục vụ mục đích quốc phòng, an ninh.",
+      "Cải tạo trái phép; cố ý can thiệp làm sai lệch chỉ số trên đồng hồ báo quãng đường đã chạy của xe ô tô; cắt, hàn, tẩy xóa, đục sửa, đóng lại trái phép số khung, số động cơ của xe cơ giới, xe máy chuyên dùng."
+    ],
+    "answer": 1,
+    "explanation": "Theo Khoản 11 Điều 9 Luật Trật tự, ATGT đường bộ 2024:Cải tạo trái phép; cố ý can thiệp làm sai lệch chỉ số trên đồng hồ báo quãng đường đã chạy của xe ô tô; cắt, hàn, tẩy xóa, đục sửa, đóng lại trái phép số khung, số động cơ của xe cơ giới, xe máy chuyên dùng là hành vi bị nghiêm cấm."
+  },
+  {
+    "id": 5,
+    "question": "Việc sản xuất, sử dụng, mua, bán trái phép biển số xe có bị nghiêm cấm hay không?",
+    "options": [
+      "Không bị nghiêm cấm.",
+      "Bị nghiêm cấm.",
+      "Bị nghiêm cấm tuỳ trường hợp."
+    ],
+    "answer": 1,
+    "explanation": "Theo Khoản 17 Điều 9 Luật Trật tự, ATGT đường bộ 2024: Tuyệt đối nghiêm cấm các hành vi liên quan đến biển số xe như sản xuất, mua bán, sử dụng trái phép; gắn biển số không do cơ quan có thẩm quyền cấp hoặc gắn sai vị trí; bẻ cong, che lấp; tự ý thay đổi chữ, số, màu sắc, hình dạng, kích thước."
+  },
+  {
+    "id": 6,
+    "question": "Có bao nhiêu nhóm biển báo hiệu đường bộ?",
+    "options": [
+      "Ba nhóm: Biển báo cấm, biển báo nguy hiểm và biển hiệu lệnh.",
+      "Bốn nhóm: Biển báo cấm, biển báo nguy hiểm, biển hiệu lệnh và biển phụ.",
+      "Năm nhóm: Biển báo cấm, biển báo nguy hiểm, biển hiệu lệnh, biển chỉ dẫn, biển phụ."
+    ],
+    "answer": 2,
+    "explanation": "Theo Khoản 5 Điều 11 Luật Trật tự, ATGT đường bộ 2024: Báo hiệu của biển báo hiệu đường bộ được quy định như sau: \na) Biển báo cấm để biểu thị các điều cấm;\nb) Biển báo nguy hiểm để cảnh báo các tình huống nguy hiểm có thể xảy ra;\nc) Biển hiệu lệnh để báo hiệu lệnh phải thi hành;\nd) Biển chỉ dẫn để chỉ dẫn hướng đi hoặc các điều cần biết;\nđ) Biển phụ để thuyết minh bổ sung cho biển báo cấm, biển báo nguy hiểm, biển hiệu lệnh và biển chỉ dẫn."
+  },
+  {
+    "id": 7,
+    "question": "Tại nơi có vạch kẻ đường hoặc tại nơi mà người đi bộ, xe lăn của người khuyết tật đang qua đường, người điều khiển phương tiện tham gia giao thông phải thực hiện như thế nào?",
+    "options": [
+      "Giảm tốc độ và nhường đường cho người đi bộ, xe lăn của người khuyết tật qua đường đảm bảo an toàn.",
+      "Quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn cho người đi bộ, xe lăn của người khuyết tật qua đường.",
+      "Quan sát, tăng tốc độ và điều khiển phương tiện nhanh chóng đi qua."
+    ],
+    "answer": 1,
+    "explanation": "Theo Điểm a Khoản 3 Điều 12 Luật Trật tự, ATGT đường bộ 2024: Người điều khiển phương tiện tham gia giao thông đường bộ phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn tại nơi có vạch kẻ đường hoặc báo hiệu khác dành cho người đi bộ hoặc tại nơi mà người đi bộ, xe lăn của người khuyết tật đang qua đường."
+  },
+  {
+    "id": 8,
+    "question": "Người điều khiển xe mô tô phải phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn trong các trường hợp nào dưới đây?",
+    "options": [
+      "Đường hẹp, đường vòng, đường quanh co, đường đèo, dốc.",
+      "Nơi cầu, cống hẹp, đập tràn, đường ngầm, hầm chui, hầm đường bộ.",
+      "Trời mưa, gió, sương, khói, bụi, mặt đường trơn trượt, lầy lội, có nhiều đất đá, vật liệu rơi vãi ảnh hưởng đến an toàn giao thông đường bộ.",
+      "Cả ba ý trên."
+    ],
+    "answer": 3,
+    "explanation": "Theo Điểm d, đ, m Khoản 3 Điều 12 Luật Trật tự, ATGT đường bộ 2024: Người điều khiển phương tiện tham gia giao thông đường bộ phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn tại: Nơi đường bộ giao nhau cùng mức với đường bộ, đường bộ giao nhau cùng mức với đường sắt; đường hẹp, đường vòng, đường quanh co, đường đèo, dốc; Nơi cầu, cống hẹp, đập tràn, đường ngầm, hầm chui, hầm đường bộ; Điều kiện trời mưa, gió, sương, khói, bụi, mặt đường trơn trượt, lầy lội, có nhiều đất đá, vật liệu rơi vãi ảnh hưởng đến an toàn giao thông đường bộ."
+  },
+  {
+    "id": 9,
+    "question": "Khi gặp hiệu lệnh điều khiển của Cảnh sát giao thông như hình dưới đây thì người tham gia giao thông đường bộ phải đi như thế nào là đúng quy tắc giao thông?",
+    "image": "/appthibanglaixe/Assets/image/cau_30_image.png",
+    "options": [
+      "Người tham gia giao thông đường bộ ở phía sau Cảnh sát giao thông được đi, các hướng khác phải dừng lại.",
+      "Người tham gia giao thông đường bộ được rẽ phải theo chiều mũi tên màu xanh ở bục Cảnh sát giao thông.",
+      "Người tham gia giao thông đường bộ ở tất cả các hướng phải dừng lại, trừ các xe đã ở trong khu vực giao nhau.",
+      "Người tham gia giao thông đường bộ ở phía trước Cảnh sát giao thông phải dừng lại, các hướng khác được đi."
+    ],
+    "answer": 2,
+    "explanation": "Theo Điểm a Khoản 3 Điều 11 Luật Trật tự, ATGT đường bộ 2024: Tay bên phải giơ thẳng đứng để báo hiệu cho người tham gia giao thông đường bộ ở tất cả các hướng phải dừng lại, trừ các xe đã ở trong khu vực giao nhau."
+  },
+  {
+    "id": 10,
+    "question": "Khi chuyển làn đường, người lái xe phải bật đèn tín hiệu báo rẽ như thế nào là đúng quy tắc giao thông?",
+    "options": [
+      "Khi bắt đầu chuyển làn đường.",
+      "Trước khi thay đổi làn đường",
+      "Sau khi thay đổi làn đường."
+    ],
+    "answer": 1,
+    "explanation": "Theo Khoản 2 Điều 13 Luật Trật tự, ATGT đường bộ 2024: Trên đường có nhiều làn đường cho xe đi cùng chiều được phân biệt bằng vạch kẻ phân làn đường, người điều khiển phương tiện tham gia giao thông đường bộ phải cho xe đi trong một làn đường và chỉ được chuyển làn đường ở những nơi cho phép; mỗi lần chuyển làn đường chỉ được phép chuyển sang một làn đường liền kề; khi chuyển làn đường phải có tín hiệu báo TRƯỚC; phải quan sát bảo đảm khoảng cách an toàn với xe phía trước, phía sau và hai bên mới được chuyển làn."
+  },
+  {
+    "id": 11,
+    "question": "gười điều khiển phương tiện tham gia giao thông không được dừng xe, đỗ xe ở những vị trí nào sau đây?",
+    "options": [
+      "Trên miệng cống thoát nước, miệng hầm của đường điện thoại, điện cao thế, chỗ dành riêng cho xe chữa cháy lấy nước.",
+      "Trong phạm vi an toàn của đường sắt.",
+      "Cả hai ý trên."
+    ],
+    "answer": 2,
+    "explanation": "Theo Khoản 4 Điều 18 Luật Trật tự, ATGT đường bộ 2024: có một số trường hợp người điều khiển phương tiện tham gia giao thông đường bộ không được dừng xe, đỗ xe tại nhiều vị trí, trong đó bao gồm:Trên miệng cống thoát nước, miệng hầm của đường điện thoại, điện cao thế, chỗ dành riêng cho xe chữa cháy lấy nước và trong phạm vi an toàn của đường sắt."
+  },
+  {
+    "id": 12,
+    "question": "Người được chở trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy khi tham gia giao thông đường bộ không được thực hiện hành vi nào sau đây?",
+    "options": [
+      "Mang, vác vật cồng kềnh.",
+      "Bám, kéo hoặc đẩy các phương tiện khác.",
+      "Dùng tay cầm điện thoại hoặc các thiết bị điện tử khác.",
+      "Ý 1 và ý 2."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 13,
+    "question": "Người được chở trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy khi tham gia giao thông đường bộ có được bám, kéo hoặc đẩy các phương tiện khác không?",
+    "options": [
+      "Được phép.",
+      "Được bám trong trường hợp phương tiện của mình bị hỏng.",
+      "Được kéo, đẩy trong trường hợp phương tiện khác bị hỏng.",
+      "Không được phép."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 14,
+    "question": "Thứ tự xuống phà như thế nào là đúng quy tắc giao thông?",
+    "options": [
+      "Xe thô sơ, người đi bộ xuống trước, xe cơ giới, xe máy chuyên dùng xuống sau.",
+      "Xe cơ giới, xe máy chuyên dùng xuống trước, xe thô sơ, người đi bộ xuống sau.",
+      "Xe cơ giới, xe thô sơ xuống trước, xe máy chuyên dùng, người đi bộ xuống sau."
+    ],
+    "answer": 1,
+    "explanation": " Theo Điểm b Khoản 3 Điều 23 Luật Trật tự, ATGT đường bộ 2024 Khi xuống phà, xe cơ giới, xe máy chuyên dùng xuống trước, xe thô sơ, người đi bộ xuống sau; khi lên bến, người đi bộ lên trước, các phương tiện giao thông đường bộ lên sau theo hướng dẫn của người điều khiển giao thông."
+  },
+  {
+    "id": 15,
+    "question": "Khi lái xe trong đô thị và khu đông dân cư trong thời gian từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau, nếu cần vượt một xe khác, người lái xe phải báo hiệu như thế nào là đúng quy tắc giao thông?",
+    "options": [
+      "Chỉ được báo hiệu bằng còi.",
+      "Phải báo hiệu bằng cả còi và đèn.",
+      "Chỉ được báo hiệu bằng đèn."
+    ],
+    "answer": 1,
+    "explanation": " Theo Khoản 5 Điều 14 Luật Trật tự, ATGT đường bộ 2024: Xe xin vượt phải có báo hiệu nhấp nháy bằng đèn chiếu sáng phía trước hoặc còi, trừ loại xe thô sơ không có đèn chiếu sáng và còi, khi vượt xe phải có tín hiệu báo hướng chuyển, tín hiệu báo hướng chuyển được sử dụng, bảo đảm khoảng cách an toàn với xe phía trước và phía sau trong suốt quá trình vượt xe; trong đô thị và khu đông dân cư trong thời gian từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau chỉ được báo hiệu xin vượt bằng đèn."
+  },
+  {
+    "id": 16,
+    "question": "Khi điều khiển xe chạy trên đường, biết có xe sau xin vượt, nếu đủ điều kiện an toàn người điều khiển phương tiện phải làm gì?",
+    "options": [
+      "Tăng tốc độ và ra hiệu cho xe sau vượt, không được gây trở ngại cho xe xin vượt.",
+      "Giảm tốc độ, có tín hiệu rẽ phải để báo hiệu cho người điều khiển phương tiện tham gia giao thông đường bộ phía sau biết được vượt và đi sát về bên phải của phần đường xe chạy cho đến khi xe sau đã vượt qua, không được cản trở đối với xe xin vượt.",
+      "Cho xe đi sát về bên trái của phần đường xe chạy và ra hiệu cho xe sau vượt, không được gây trở ngại cho xe xin vượt."
+    ],
+    "answer": 1,
+    "explanation": "Theo Khoản 4 Điều 14 Luật Trật tự, ATGT đường bộ 2024:  Khi có xe xin vượt, người điều khiển phương tiện tham gia giao thông đường bộ phía trước phải quan sát phần đường phía trước, nếu đủ điều kiện an toàn thì phải giảm tốc độ, có tín hiệu rẽ phải để báo hiệu cho người điều khiển phương tiện tham gia giao thông đường bộ phía sau biết được vượt và đi sát về bên phải của phần đường xe chạy cho đến khi xe sau đã vượt qua, không được cản trở đối với xe xin vượt."
+  },
+  {
+    "id": 17,
+    "question": "Người lái xe phải làm gì để bảo đảm an toàn khi lái xe trên đường cong có tầm nhìn bị hạn chế?",
+    "options": [
+      "Quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn.",
+      "Đi sang làn đường của xe ngược chiều để mở rộng tầm nhìn và vượt xe khác.",
+      "Cho xe đi sát bên phải làn đường, bật tín hiệu báo hiệu để vượt bên phải xe khác."
+    ],
+    "answer": 0,
+    "explanation": "Trên đường cong hoặc khuất tầm nhìn, sẽ không có tầm nhìn tốt đối với chiều xe ngược chiều hoặc xe cùng chiều ở phía trước, thế nên cần quan sát cẩn thận khi lưu thông, giảm tốc độ, đi chậm để đảm bảo an toàn. Khu vực đường cong không được vượt hoặc đi sang làn đường xe ngược chiều vì cực kỳ nguy hiểm."
+  },
+  {
+    "id": 18,
+    "question": "Tại nơi đường giao nhau có báo hiệu đi theo vòng xuyến, người lái xe phải nhường đường như thế nào là đúng quy tắc giao thông?",
+    "options": [
+      "Nhường đường cho xe đi đến từ bên phải.",
+      "Nhường đường cho xe đi đến từ bên trái.",
+      "Không phải nhường đường."
+    ],
+    "answer": 1,
+    "explanation": "Theo Khoản 3 Điều 22 Luật Trật tự, ATGT đường bộ 2024: Tại nơi đường giao nhau có báo hiệu đi theo vòng xuyến, phải nhường đường cho xe đi đến từ bên trái."
+  },
+  {
+    "id": 19,
+    "question": "Tại nơi đường giao nhau không có báo hiệu đi theo vòng xuyến, người điều khiển phương tiện phải nhường đường như thế nào là đúng quy tắc giao thông?",
+    "options": [
+      "Phải nhường đường cho xe đi đến từ bên phải.",
+      "Xe báo hiệu xin đường trước, xe đó được đi trước.",
+      "Phải nhường đường cho xe đi đến từ bên trái."
+    ],
+    "answer": 0,
+    "explanation": "Theo Khoản 2 Điều 22 Luật Trật tự, ATGT đường bộ 2024: Tại nơi đường giao nhau không có báo hiệu đi theo vòng xuyến, phải nhường đường cho xe đi đến từ bên phải;"
+  },
+  {
+    "id": 20,
+    "question": "Người lái xe phải nhanh chóng giảm tốc độ, đi sát lề đường bên phải hoặc dừng lại để nhường đường cho các loại xe nào dưới đây?",
+    "options": [
+      "Xe chữa cháy của Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ và xe chữa cháy của các lực lượng khác; xe của lực lượng quân sự, công an và kiểm sát; đoàn xe có xe Cảnh sát giao thông dẫn đường; xe cứu thương; xe hộ đê không có tín hiệu ưu tiên theo quy định.",
+      "Xe ưu tiên gồm xe chữa cháy của Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ và xe chữa cháy của các lực lượng khác được huy động đi làm nhiệm vụ chữa cháy; xe của lực lượng quân sự, công an và kiểm sát đi làm nhiệm vụ khẩn cấp; đoàn xe có xe Cảnh sát giao thông dẫn đường; xe cứu thương đi làm nhiệm vụ cấp cứu; xe hộ đê đi làm nhiệm vụ; xe đi làm nhiệm vụ cứu nạn, cứu hộ, khắc phục sự cố thiên tai, dịch bệnh hoặc xe đi làm nhiệm vụ trong tình trạng khẩn cấp theo quy định của pháp luật; đoàn xe tang.",
+      "Xe ô tô, xe máy, đoàn xe đang diễu hành có tổ chức có báo tín hiệu xin vượt bằng còi và đèn."
+    ],
+    "answer": 1
+  }
+]

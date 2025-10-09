@@ -1,125 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/appthibanglaixe/CSS/main_page_style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="/appthibanglaixe/CSS/main_page_style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <nav class="nav_bar">
-        <ul>
-            <li><a href="#">Trang Chủ</a></li> |
-            <li><a href="/appthibanglaixe/HTML/lythuyet.html">Lý Thuyết Ôn Tập</a></li> |
-            <li><a href="#">Thi Thử A1</a></li> |
-            <li><a href="#">Thi 20 Câu Điểm Liệt</a></li>
-        </ul>
+      <ul>
+        <li><a href="#">Trang Chủ</a></li>
+        |
+        <li>
+          <a href="/appthibanglaixe/HTML/lythuyet.html">Lý Thuyết Ôn Tập</a>
+        </li>
+        |
+        <li><a href="#chon-de-thi">Thi Thử A1</a></li>
+          <a href="#">Thi 20 Câu Điểm Liệt</a>
+
+        </li>
+      </ul>
     </nav>
 
     <div class="container">
-        <div class="overlay"></div>
+      <div class="overlay"></div>
 
-        <div class="content">
-            <header class="banner">
-                <h1>ĐỀ THI THỬ BẰNG LÁI XE A1 - 250 CÂU</h1>
-            </header>
+      <div class="content">
+        <header class="banner">
+          <h1>ĐỀ THI THỬ BẰNG LÁI XE A1 - 250 CÂU</h1>
+        </header>
 
-            <p id="info">
-                Bộ phần mềm thi này được tổng hợp đầy đủ từ 
-                <b> 250 câu hỏi sát hạch lái xe A1</b> 
-                do Tổng Cục Đường Bộ Việt Nam ban hành.
-            </p>
-            
-            <div class="exam_structure_and_guide">
-                <div class="left">
-                    <h3>📄 Cấu trúc chuẩn bộ đề thi A1 (25 câu):</h3>
-                    <ul>
-                        <li>📌 8 câu: Quy định chung và quy tắc giao thông.</li>
-                        <li>📌 8 câu: Hệ thống biển báo hiệu đường bộ.</li>
-                        <li>📌 6 câu: Giải các thế sa hình và kỹ năng xử lý tình huống.</li>
-                        <li>📌 1 câu: Văn hóa, đạo đức người lái xe.</li>
-                        <li>📌 2 câu: Kỹ thuật lái xe hoặc cấu tạo sửa chữa.</li>
-                        <li>📌 1 câu: Tình huống mất an toàn giao thông nghiêm trọng (Câu điểm liệt).</li>
-                    </ul>
+        <p id="info">
+          Bộ phần mềm thi này được tổng hợp đầy đủ từ
+          <b> 250 câu hỏi sát hạch lái xe A1</b>
+          do Tổng Cục Đường Bộ Việt Nam ban hành.
+        </p>
+
+        <div class="exam_structure_and_guide">
+          <div class="left">
+            <h3>📄 Cấu trúc chuẩn bộ đề thi A1 (25 câu):</h3>
+            <ul>
+              <li>📌 8 câu: Quy định chung và quy tắc giao thông.</li>
+              <li>📌 8 câu: Hệ thống biển báo hiệu đường bộ.</li>
+              <li>
+                📌 6 câu: Giải các thế sa hình và kỹ năng xử lý tình huống.
+              </li>
+              <li>📌 1 câu: Văn hóa, đạo đức người lái xe.</li>
+              <li>📌 2 câu: Kỹ thuật lái xe hoặc cấu tạo sửa chữa.</li>
+              <li>
+                📌 1 câu: Tình huống mất an toàn giao thông nghiêm trọng (Câu
+                điểm liệt).
+              </li>
+            </ul>
+          </div>
+
+          <div class="right">
+            <h3>📝 Trình Tự Thi Hiệu Quả</h3>
+            <ul>
+              <li>
+                <span>1️⃣</span>
+                <div class="sub_content">
+                  <strong>Lướt và làm câu dễ (1-5 phút đầu)</strong>
+                  <p>
+                    Nhanh chóng trả lời ngay các câu lý thuyết bạn chắc chắn
+                    100%. Giúp tạo tâm lý tự tin và tiết kiệm thời gian.
+                  </p>
                 </div>
-
-                <div class="right">
-                    <h3>📝 Trình Tự Thi Hiệu Quả</h3>
-                    <ul>
-                        <li>
-                            <span>1️⃣</span>
-                            <div class="sub_content">
-                                <strong>Lướt và làm câu dễ (1-5 phút đầu)</strong>
-                                <p>
-                                    Nhanh chóng trả lời ngay các câu lý thuyết bạn chắc chắn 100%.
-                                    Giúp tạo tâm lý tự tin và tiết kiệm thời gian.
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <span>2️⃣</span>
-                            <div class="sub_content">
-                                <strong>Giải quyết Biển báo & Sa hình (5-12 phút tiếp theo)</strong>
-                                <p>
-                                    Tập trung phân tích kỹ các câu hỏi hình ảnh. Áp dụng các quy tắc
-                                    và mẹo đã học để giải quyết phần khó nhất.
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <span>3️⃣</span>
-                            <div class="sub_content">
-                                <strong>Rà soát câu hỏi điểm liệt</strong>
-                                <p>
-                                    Đặc biệt cẩn thận, đọc lại câu hỏi và đáp án ít nhất 2 lần. Tuyệt
-                                    đối không được làm sai các câu này.
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <span>4️⃣</span>
-                            <div class="sub_content">
-                                <strong>Hoàn thành & Kiểm tra lại (3-4 phút cuối)</strong>
-                                <p>
-                                    Xem lại toàn bộ bài làm, đặc biệt là các câu còn phân vân. Chỉ
-                                    thay đổi đáp án khi bạn thật sự chắc chắn.
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <span>5️⃣</span>
-                            <div class="sub_content">
-                                <strong>Nộp bài</strong>
-                                <p>
-                                    Khi đã tự tin với các câu trả lời của mình, hãy nộp bài và chờ kết quả.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
+              </li>
+              <li>
+                <span>2️⃣</span>
+                <div class="sub_content">
+                  <strong
+                    >Giải quyết Biển báo & Sa hình (5-12 phút tiếp theo)</strong
+                  >
+                  <p>
+                    Tập trung phân tích kỹ các câu hỏi hình ảnh. Áp dụng các quy
+                    tắc và mẹo đã học để giải quyết phần khó nhất.
+                  </p>
                 </div>
-            </div>
-
-            <div class="exam_selection">
-                <h3 class="title">Chọn bộ đề thi</h3>
-
-                <div class="exam_buttons">
-                    <button>Đề số 1</button>
-                    <button>Đề số 2</button>
-                    <button>Đề số 3</button>
-                    <button>Đề số 4</button>
-                    <button>Đề số 5</button>
-                    <button>Đề số 6</button>
-                    <button>Đề số 7</button>
-                    <button>Đề số 8</button>
-                    <button>Đề số 9</button>
-                    <button>Đề số 10</button>
+              </li>
+              <li>
+                <span>3️⃣</span>
+                <div class="sub_content">
+                  <strong>Rà soát câu hỏi điểm liệt</strong>
+                  <p>
+                    Đặc biệt cẩn thận, đọc lại câu hỏi và đáp án ít nhất 2 lần.
+                    Tuyệt đối không được làm sai các câu này.
+                  </p>
                 </div>
-            </div>
+              </li>
+              <li>
+                <span>4️⃣</span>
+                <div class="sub_content">
+                  <strong>Hoàn thành & Kiểm tra lại (3-4 phút cuối)</strong>
+                  <p>
+                    Xem lại toàn bộ bài làm, đặc biệt là các câu còn phân vân.
+                    Chỉ thay đổi đáp án khi bạn thật sự chắc chắn.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span>5️⃣</span>
+                <div class="sub_content">
+                  <strong>Nộp bài</strong>
+                  <p>
+                    Khi đã tự tin với các câu trả lời của mình, hãy nộp bài và
+                    chờ kết quả.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
-    
-    <script src="test.js"></script>
 
-</body>
+        <div id="chon-de-thi" class="exam_selection">
+          <h3 class="title">Chọn bộ đề thi</h3>
+
+          <div class="exam_buttons">
+            <button class="btn1">Đề số 1</button>
+            <button class="btn1">Đề số 2</button>
+            <button class="btn1">Đề số 3</button>
+            <button class="btn1">Đề số 4</button>
+            <button class="btn1">Đề số 5</button>
+            <button class="btn1">Đề số 6</button>
+            <button class="btn1">Đề số 7</button>
+            <button class="btn1">Đề số 8</button>
+            <button class="btn1">Đề số 9</button>
+            <button class="btn1">Đề số 10</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="sec footer_container">
+        <div class="footer_col">
+          <p class="footer_text">
+            Ứng dụng hỗ trợ ôn tập và thi thử lý thuyết bằng lái xe hạng A1 trực
+            tuyến. Học nhanh - nhớ lâu - đạt kết quả cao.
+          </p>
+          <ul class="footer_socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <p><b>Hotline: (028) 38666626</b></p>
+          </ul>
+        </div>
+        <div class="footer_col">
+          <h4>Liên kết nhanh</h4>
+          <ul class="footer_links">
+            <li><a href="/appthibanglaixe/main_page.html">Trang chủ</a></li>
+            <li>
+              <a href="/appthibanglaixe/HTML/lythuyet.html">Lý thuyết ôn tập</a>
+            </li>
+            <li><a href="#chon-de-thi">Thi thử A1</a></li>
+            <li><a href="#">20 câu điểm liệt</a></li>
+          </ul>
+        </div>
+        <div class="footer_col">
+          <h4>Thông tin</h4>
+          <ul class="footer_links">
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Hướng dẫn sử dụng</a></li>
+            <li><a href="#">Điều khoản dịch vụ</a></li>
+          </ul>
+        </div>
+        <div class="footer_col">
+          <h4>Hỗ trợ</h4>
+          <ul class="footer_links">
+            <li><a href="#">Liên hệ</a></li>
+            <li><a href="#">Góp ý</a></li>
+            <li><a href="#">Câu hỏi thường gặp</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer_bar">© 2025 ThiBằngLáiXeA1. All rights reserved.</div>
+    </footer>
+
+    <script src="test.js"></script>
+  </body>
 </html>
