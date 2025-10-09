@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De 1</title>
+    <link rel="stylesheet" href="/appthibanglaixe/CSS/de_1_style.css">
+</head>
+<body>
+    <nav class="nav_bar">
+      <ul>
+        <li><a href="/appthibanglaixe/main_page.html">Trang Chủ</a></li> |
+        <li><a href="#" id="reload-lythuyet">Lý Thuyết Ôn Tập</a></li> |
+        <li><a href="#chon-de-thi">Thi Thử A1</a></li> |
+        <li><a href="#" id="diemliet-link">Thi 20 Câu Điểm Liệt</a></li>
+      </ul>
+    </nav>
+
+    <main class="container">
+        <div id="questions"></div>
+
+    <div id="pagination">
+        <button id="prev">⬅ Trang trước</button>
+        <span id="pageNumbers"></span>
+        <button id="next">Trang sau ➡</button>
+        <br>
+        <label for="pageInput">Nhảy đến trang: </label>
+        <input type="number" id="pageInput" min="1" value="1" style="width: 60px">
+        <button id="goPage">Đi</button>
+        <div id="pageInfo"></div>
+    </div>
+    </main>
+    <script src="/appthibanglaixe/JS/de_1_script.js"></script>
+</body>
+</html>
