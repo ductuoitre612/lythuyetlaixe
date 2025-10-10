@@ -206,3 +206,10 @@ body{
   .container{ margin-top:18px; }
   .banner{ padding:28px 10px; }
 }
+
+.explanation {
+  white-space: pre-line;
+  color: var(--muted-text);
+  margin-top: 8px;
+  line-height: 1.6;
+}

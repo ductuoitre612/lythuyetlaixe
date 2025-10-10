@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const jsonPath = "/appthibanglaixe/Assets/Stuff/lythuyet_question.json";
 
   // Danh sách ID muốn hiển thị (ví dụ đề 1)
-  const selectedIds = [1, 30, 173, 200, 245];
+  const selectedIds = [1, 26, 173, 200, 245];
 
   // Số câu trên mỗi trang
   const questionsPerPage = 1;
@@ -49,33 +49,42 @@ document.addEventListener('DOMContentLoaded', () => {
       const opts = q.options || q.option || [];
 
       // build options markup
-      // build options markup
       const optionsHtml = opts
         .map((opt, i) => `<li data-index="${i}">${opt}</li>`)
         .join("");
 
+      // ✨ Hàm xử lý xuống dòng
+      function nl2br(raw) {
+        if (!raw) return "";
+        raw = String(raw).replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+        const esc = raw
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;");
+        return esc.replace(/\n/g, "<br>");
+      }
 
+      // build HTML
       questionDiv.innerHTML = `
         <h3>Câu ${start + index + 1}: ${q.question}</h3>
         <div class="question-media"></div>
-        <ul>
-          ${optionsHtml}
-        </ul>
-        <p class="explanation" style="display:none;">${q.explanation || ""}</p>
+        <ul>${optionsHtml}</ul>
+        <p class="explanation" style="display:none;">${nl2br(q.explanation || "")}</p>
         <hr>
       `;
 
-      // insert image if present (use DOM API to avoid accidental HTML injection)
+      // insert image if present
       if (q.image) {
         const mediaContainer = questionDiv.querySelector(".question-media");
         if (mediaContainer) {
           const img = document.createElement("img");
-          img.src = q.image; // e.g. "/appthibanglaixe/Assets/Imgs/your_image.jpg"
+          img.src = q.image;
           img.alt = q.imageAlt || `Hình câu ${q.id || start + index + 1}`;
           mediaContainer.appendChild(img);
         }
       }
 
+      // gán sự kiện cho mỗi lựa chọn
       const liItems = questionDiv.querySelectorAll("li");
       liItems.forEach((li) => {
         li.addEventListener("click", () => {
@@ -84,22 +93,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       });
 
+      // thêm hiệu ứng xuất hiện
       container.appendChild(questionDiv);
-
       setTimeout(() => {
         questionDiv.classList.add("show");
       }, 50);
-
-      // Thêm event cho từng button
-      const buttons = questionDiv.querySelectorAll(".option-btn");
-      buttons.forEach((btn) => {
-        btn.addEventListener("click", () => {
-          const selectedIndex = parseInt(btn.dataset.index, 10);
-          checkAnswer(btn, q, selectedIndex, questionDiv);
-        });
-      });
     });
   }
+
 
   function checkAnswer(selectedLi, question, selectedIndex, container) {
     const explanation = container.querySelector(".explanation");

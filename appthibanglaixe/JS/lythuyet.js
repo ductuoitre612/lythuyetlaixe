@@ -64,6 +64,17 @@ async function loadQuestions() {
   renderPage(currentPage);
 }
 
+function nl2br(raw) {
+  if (!raw) return "";
+  raw = String(raw).replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+  const esc = raw
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+  return esc.replace(/\n/g, "<br>");
+}
+
+
 function renderPage(page) {
   const start = (page - 1) * perPage;
   const end = start + perPage;
@@ -92,7 +103,7 @@ function renderPage(page) {
       <h3>Câu ${q.id}: ${q.question || ""}</h3>
       ${imgHtml}
       <ol type="A">${optionsHTML}</ol><br>
-      ${q.explanation ? `<p><b>Giải thích:</b> ${q.explanation}</p>` : ""}<br>
+      ${q.explanation ? `<p class="explanation"><b>Giải thích:</b> ${nl2br(q.explanation)}</p>` : ""}<br>
     `;
     container.appendChild(qDiv);
   });
