@@ -87,9 +87,9 @@ font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neu
 
 .nav_bar a:hover::after{ width:100%; }
 
-.container{
+.container {
   max-width:980px;
-  margin:28px auto 80px auto;
+  margin:400px auto 80px auto;
   padding:0 18px;
   font-size:16px;
 }
