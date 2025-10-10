@@ -49,9 +49,11 @@ document.addEventListener('DOMContentLoaded', () => {
       const opts = q.options || q.option || [];
 
       // build options markup
+      // build options markup
       const optionsHtml = opts
-        .map((opt, i) => `<li><button class="option-btn" data-index="${i}">${opt}</button></li>`)
+        .map((opt, i) => `<li data-index="${i}">${opt}</li>`)
         .join("");
+
 
       questionDiv.innerHTML = `
         <h3>Câu ${start + index + 1}: ${q.question}</h3>
@@ -74,7 +76,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
 
+      const liItems = questionDiv.querySelectorAll("li");
+      liItems.forEach((li) => {
+        li.addEventListener("click", () => {
+          const selected = parseInt(li.dataset.index, 10);
+          checkAnswer(li, q, selected, questionDiv);
+        });
+      });
+
       container.appendChild(questionDiv);
+
+      setTimeout(() => {
+        questionDiv.classList.add("show");
+      }, 50);
 
       // Thêm event cho từng button
       const buttons = questionDiv.querySelectorAll(".option-btn");
@@ -87,22 +101,34 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  function checkAnswer(btn, question, selectedIndex, container) {
+  function checkAnswer(selectedLi, question, selectedIndex, container) {
     const explanation = container.querySelector(".explanation");
-    const buttons = Array.from(container.querySelectorAll(".option-btn"));
+    const allOptions = container.querySelectorAll("li");
 
-    buttons.forEach(b => b.disabled = true); // khoá sau khi chọn
+    // Khóa tất cả các lựa chọn sau khi click
+    allOptions.forEach(li => {
+      li.style.pointerEvents = "none";
+      li.style.opacity = "0.85";
+    });
 
+    // Nếu đúng
     if (selectedIndex === question.answer) {
-      btn.style.backgroundColor = "#4CAF50"; // xanh đúng
+      selectedLi.setAttribute("data-correct", "true");
     } else {
-      btn.style.backgroundColor = "#F44336"; // đỏ sai
-      const correctBtn = buttons[question.answer];
-      if (correctBtn) correctBtn.style.backgroundColor = "#4CAF50"; // hiển thị đáp án đúng
+      // Đánh dấu đáp án đúng
+      allOptions[question.answer]?.setAttribute("data-correct", "true");
+
+      // Làm nổi bật đáp án sai nhẹ
+      selectedLi.style.color = "var(--danger)";
+      selectedLi.style.fontWeight = "600";
+      selectedLi.style.background = "rgba(255,123,123,0.06)";
+      selectedLi.style.borderLeft = "4px solid rgba(255,123,123,0.18)";
+      selectedLi.style.paddingLeft = "10px";
     }
 
     if (explanation) explanation.style.display = "block";
   }
+
 
   function updatePageInfo() {
     const totalPages = Math.max(1, Math.ceil(filteredQuestions.length / questionsPerPage));

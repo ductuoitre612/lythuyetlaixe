@@ -357,7 +357,7 @@
     "answer": 0
   },
   {
-    "id": 32,
+    "id": 33,
     "question": "Khi ở một vị trí vừa có biển báo hiệu đặt cố định vừa có biển báo hiệu tạm thời mà hai biển có ý nghĩa khác nhau, người tham gia giao thông đường bộ phải chấp hành hiệu lệnh của biển báo hiệu nào?",
     "options": [
       "Biển báo đặt cố định",
@@ -1534,7 +1534,7 @@
   {
     "id": 145,
     "question": "Biển này có ý nghĩa như thế nào?",
-    "image": "/appthibanglaixe/Assets/image/cau_145.jpgz",
+    "image": "/appthibanglaixe/Assets/image/cau_145.jpg",
     "options": [
       "Cấm xe cơ giới (trừ xe ưu tiên theo luật định) đi thẳng.",
       "Cấm các loại xe cơ giới và xe mô tô (trừ xe ưu tiên theo luật định) đi về bên trái và bên phải.",
@@ -2197,7 +2197,7 @@
     "id": 210,
     "question": "Biển báo dưới đây có ý nghĩa như thế nào?",
     "image":"/appthibanglaixe/Assets/image/cau_210.jpg",
-    "opstions":[
+    "options": [
         "Chỉ dẫn khoảng cách đến làn đường cứu nạn (làn thoát xe khẩn cấp).",
         "Báo hiệu đường cụt phía trước.",
         "Báo hiệu nút giao gần nhất phía trước.",
@@ -2238,7 +2238,7 @@
   {
       "id": 214,
       "question": "Vạch mũi tên chỉ hướng trên mặt đường nào dưới đây cho phép xe chỉ được đi thẳng và rẽ phải?",
-      "image": "/appthibanglaixe/Assets/image/cau_214,png",
+      "image": "/appthibanglaixe/Assets/image/cau_214.png",
       "options": [
         "Vạch 1.",
         "Vạch 2 và vạch 3.",
@@ -2587,18 +2587,6 @@
       "answer": 3
   },
   {
-      "id": 244,
-      "question": "Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",
-      "image": "/appthibanglaixe/Assets/image/cau_244.png",
-      "options": [
-        "Xe con, xe tải, xe khách.",
-        "Xe tải, xe khách, xe mô tô.",
-        "Xe khách, xe mô tô, xe con.",
-        "Cả bốn xe."
-      ],
-      "answer": 1
-  },
-  {
       "id": 245,
       "question": "Các xe đi theo hướng mũi tên, xe nào chấp hành đúng quy tắc giao thông?",
       "image": "/appthibanglaixe/Assets/image/cau_245.png",
@@ -2613,7 +2601,7 @@
   {
       "id": 246,
       "question": "Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?",
-      "image": "/appthibanglaixe/Assets/image/cau_246,png",
+      "image": "/appthibanglaixe/Assets/image/cau_246.png",
       "options": [
         "Xe của bạn, xe mô tô, xe con.",
         "Xe con, xe của bạn, xe mô tô.",

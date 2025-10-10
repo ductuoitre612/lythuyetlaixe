@@ -76,16 +76,21 @@ function renderPage(page) {
     const qDiv = document.createElement("div");
     qDiv.classList.add("question");
 
-    let optionsHTML = q.options.map((opt, i) => {
+    // tolerate common typos and missing fields
+    const opts = q.options || q.option || q.opstions || [];
+    let optionsHTML = (Array.isArray(opts) ? opts : []).map((opt, i) => {
       if (i === q.answer) {
         return `<li data-correct="true">${opt}</li>`;
       }
       return `<li>${opt}</li>`;
     }).join("");
 
+    // safe image handling
+    const imgHtml = q.image ? `<img src="${q.image}" alt="Câu ${q.id || ''}">` : "";
+
     qDiv.innerHTML = `
-      <h3>Câu ${q.id}: ${q.question}</h3>
-      ${q.image ? `<img src="${q.image}" alt="Câu ${q.id}">` : ""}
+      <h3>Câu ${q.id}: ${q.question || ""}</h3>
+      ${imgHtml}
       <ol type="A">${optionsHTML}</ol><br>
       ${q.explanation ? `<p><b>Giải thích:</b> ${q.explanation}</p>` : ""}<br>
     `;

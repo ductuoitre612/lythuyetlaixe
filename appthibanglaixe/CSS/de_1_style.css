@@ -89,7 +89,7 @@ font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neu
 
 .container {
   max-width:980px;
-  margin:400px auto 80px auto;
+  margin:200px auto 80px auto;
   padding:0 18px;
   font-size:16px;
 }
@@ -147,6 +147,17 @@ font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neu
 }
 
 .question p{ color:var(--muted-text); margin-top:12px; }
+
+.question {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.question.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 #pagination{ text-align:center; margin-top:14px; }
 
