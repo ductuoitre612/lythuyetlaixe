@@ -2,9 +2,10 @@
 // ⚙️ CẤU HÌNH & DỮ LIỆU
 // =========================
 const exams = {
-  "de_1": [1, 2, 3, 4, 5],
-  "de_2": [10, 11, 12, 13, 14],
-  "de_3": [20, 21, 22, 23, 24],
+  "de_1": [
+    1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+    11, 12, 13, 14, 15, 16, 17, 18, 19, 20
+  ]
 };
 const EXAM_DURATION_MINUTES = 19;
 
@@ -63,7 +64,7 @@ function getRandomExamId() {
 async function fetchQuestions(ids) {
   try {
     console.log(`📡 Đang fetch questions với IDs:`, ids);
-    const response = await fetch("/appthibanglaixe/Assets/Stuff/lythuyet_question.json");
+    const response = await fetch("/appthibanglaixe/Assets/Stuff/caudiemliet_question.json");
     
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
@@ -381,7 +382,7 @@ function showDetailedResult(result) {
   });
   
   document.getElementById("reviewBtn").addEventListener("click", () => {
-    window.location.href = "/appthibanglaixe/HTML/lythuyet.html";
+    window.location.href = "/appthibanglaixe/lythuyet.html";
   });
 }
 

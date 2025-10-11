@@ -12,7 +12,7 @@
     });
 })();
 
-// Nút prev/next
+// Dùng để chỉnh nút prev và next
 document.getElementById("prev").addEventListener("click", () => {
   if (currentPage > 1) {
     currentPage--;
@@ -27,20 +27,23 @@ document.getElementById("next").addEventListener("click", () => {
   }
 });
 
-// Jump to page via input/button
+// Dùng để jump to page, có input
 const pageInputEl = document.getElementById('pageInput');
 const goPageBtn = document.getElementById('goPage');
 
 if (goPageBtn) {
   goPageBtn.addEventListener('click', () => {
-    if (!questions || questions.length === 0) return; // nothing loaded yet
+    if (!questions || questions.length === 0) return;
+
     const totalPages = Math.max(1, Math.ceil(questions.length / perPage));
     let val = parseInt(pageInputEl.value, 10);
+
     if (Number.isNaN(val)) return;
-    // clamp
     if (val < 1) val = 1;
     if (val > totalPages) val = totalPages;
+
     currentPage = val;
+
     renderPage(currentPage);
   });
 }
@@ -64,6 +67,7 @@ async function loadQuestions() {
   renderPage(currentPage);
 }
 
+// Dùng để ngắt dòng text cho file JSON
 function nl2br(raw) {
   if (!raw) return "";
   raw = String(raw).replace(/\r\n/g, "\n").replace(/\r/g, "\n");
@@ -74,7 +78,7 @@ function nl2br(raw) {
   return esc.replace(/\n/g, "<br>");
 }
 
-
+// Như tên. Render page
 function renderPage(page) {
   const start = (page - 1) * perPage;
   const end = start + perPage;
@@ -87,7 +91,6 @@ function renderPage(page) {
     const qDiv = document.createElement("div");
     qDiv.classList.add("question");
 
-    // tolerate common typos and missing fields
     const opts = q.options || q.option || q.opstions || [];
     let optionsHTML = (Array.isArray(opts) ? opts : []).map((opt, i) => {
       if (i === q.answer) {
@@ -96,7 +99,7 @@ function renderPage(page) {
       return `<li>${opt}</li>`;
     }).join("");
 
-    // safe image handling
+    // Kiểm tra xem JSON có chứa hình ảnh hay không
     const imgHtml = q.image ? `<img src="${q.image}" alt="Câu ${q.id || ''}">` : "";
 
     qDiv.innerHTML = `
@@ -115,6 +118,7 @@ function renderPage(page) {
   renderPagination(page);
 }
 
+// Dùng để chỉnh nút nhảy trang
 function renderPagination(page) {
   const totalPages = Math.ceil(questions.length / perPage);
   const pageNumbers = document.getElementById("pageNumbers");
