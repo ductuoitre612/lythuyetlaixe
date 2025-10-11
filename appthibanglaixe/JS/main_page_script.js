@@ -13,3 +13,27 @@ document.getElementById("btn_3").addEventListener('click', () => {
 document.getElementById("btn_4").addEventListener('click', () => {
     window.location.href = "/appthibanglaixe/HTML/de_4.html"
 });
+
+document.getElementById("btn_5").addEventListener('click', () => {
+    window.location.href = "/appthibanglaixe/HTML/de_5.html"
+});
+
+document.getElementById("btn_6").addEventListener('click', () => {
+    window.location.href = "/appthibanglaixe/HTML/de_6.html"
+});
+
+document.getElementById("btn_7").addEventListener('click', () => {
+    window.location.href = "/appthibanglaixe/HTML/de_7.html"
+});
+
+document.getElementById("btn_8").addEventListener('click', () => {
+    window.location.href = "/appthibanglaixe/HTML/de_8.html"
+});
+
+document.getElementById("btn_9").addEventListener('click', () => {
+    window.location.href = "/appthibanglaixe/HTML/de_9.html"
+});
+
+document.getElementById("btn_10").addEventListener('click', () => {
+    window.location.href = "/appthibanglaixe/HTML/de_10.html"
+});
