@@ -1,6 +1,4 @@
-// =========================
-// ⚙️ CẤU HÌNH & DỮ LIỆU
-// =========================
+// Chứa ID câu hỏi
 const exams = {
   "de_1": [1, 2, 3, 4, 5],
   "de_2": [10, 11, 12, 13, 14],
@@ -10,59 +8,52 @@ const EXAM_DURATION_MINUTES = 19;
 
 let currentQuestions = [];
 
-// =========================
-// 🔄 KHỞI TẠO BÀI THI
-// =========================
 async function initExam() {
   try {
-    console.log("🔄 Đang khởi tạo bài thi...");
+    console.log("Generating exam...");
     
     const randomExamId = getRandomExamId();
-    console.log(`🎲 Đề được chọn: ${randomExamId}`);
+    console.log(`Selected Exam: ${randomExamId}`);
 
     const questionIds = exams[randomExamId];
     if (!questionIds) {
-      console.error("❌ Không tìm thấy đề hợp lệ.");
-      showError("Không tìm thấy đề thi hợp lệ");
+      console.error("Exam is not found");
+      showError("Exam is not found");
       return;
     }
 
-    console.log(`📥 Đang tải ${questionIds.length} câu hỏi...`);
+    console.log(`Loading ${questionIds.length} questions...`);
     currentQuestions = await fetchQuestions(questionIds);
     
     if (currentQuestions.length === 0) {
-      console.error("❌ Không tải được câu hỏi");
-      showError("Không thể tải câu hỏi. Vui lòng thử lại.");
+      console.error("Can not load questions");
+      showError("Can not load questions, try again");
       return;
     }
 
-    console.log(`✅ Đã tải ${currentQuestions.length} câu hỏi`);
+    console.log(`Loaded ${currentQuestions.length} questions`);
     renderQuestions(currentQuestions);
     renderQuestionPanel(currentQuestions);
     startTimer(EXAM_DURATION_MINUTES * 60);
     setupSubmitButton();
     
   } catch (error) {
-    console.error("❌ Lỗi khởi tạo bài thi:", error);
-    showError("Có lỗi xảy ra khi khởi tạo bài thi: " + error.message);
+    console.error("Exam generating error", error);
+    showError("Some errors occur while generating exam: " + error.message);
   }
 }
 
-// =========================
-// 🎲 RANDOM ĐỀ
-// =========================
+// Chọn random đề thi
 function getRandomExamId() {
   const keys = Object.keys(exams);
   const randomIndex = Math.floor(Math.random() * keys.length);
   return keys[randomIndex];
 }
 
-// =========================
-// 📥 FETCH CÂU HỎI
-// =========================
+// Fetch câu hỏi từ lythuyet_question.html
 async function fetchQuestions(ids) {
   try {
-    console.log(`📡 Đang fetch questions với IDs:`, ids);
+    console.log(`Fetching question with ID`, ids);
     const response = await fetch("/appthibanglaixe/Assets/Stuff/lythuyet_question.json");
     
     if (!response.ok) {
@@ -70,9 +61,9 @@ async function fetchQuestions(ids) {
     }
     
     const data = await response.json();
-    console.log(`📊 Tổng số câu hỏi trong file: ${data.length}`);
+    console.log(`All questions: ${data.length}`);
     
-    // Filter questions và đảm bảo đúng thứ tự
+    // Filter questions
     const filteredQuestions = data.filter(q => ids.includes(q.id));
     
     // Sắp xếp theo thứ tự trong ids
@@ -80,27 +71,26 @@ async function fetchQuestions(ids) {
       filteredQuestions.find(q => q.id === id)
     ).filter(q => q !== undefined);
     
-    console.log(`✅ Câu hỏi sau khi lọc:`, sortedQuestions);
+    console.log(`Questions after filtered:`, sortedQuestions);
     return sortedQuestions;
     
   } catch (err) {
-    console.error("❌ Lỗi khi tải câu hỏi:", err);
+    console.error("Error:", err);
     return [];
   }
 }
 
-// =========================
-// 🧱 RENDER CÂU HỎI - PHIÊN BẢN ĐÃ SỬA
-// =========================
+// render
 function renderQuestions(questions) {
   const container = document.getElementById("questions");
+  // Kiểm tra question container trong html
   if (!container) {
-    console.error("❌ Không tìm thấy container questions");
+    console.error("Can not find question container");
     return;
   }
 
   container.innerHTML = "";
-  console.log(`🧱 Đang render ${questions.length} câu hỏi...`);
+  console.log(`Rendering ${questions.length} questions...`);
 
   questions.forEach((q, index) => {
     const div = document.createElement("div");
@@ -135,16 +125,15 @@ function renderQuestions(questions) {
     container.appendChild(div);
   });
 
-  console.log("✅ Đã render xong câu hỏi");
+  console.log("Render completed");
 }
 
-// =========================
-// 🎯 RENDER PANEL CÂU HỎI
-// =========================
+// Question panel
 function renderQuestionPanel(questions) {
   const panel = document.getElementById("questionPanel");
+  // Kiểm tra question panel trong html
   if (!panel) {
-    console.error("❌ Không tìm thấy question panel");
+    console.error("Can not find question panel");
     return;
   }
 
@@ -167,9 +156,7 @@ function renderQuestionPanel(questions) {
   });
 }
 
-// =========================
-// 🔄 CẬP NHẬT TRẠNG THÁI PANEL
-// =========================
+// Cập nhật panel
 function updateQuestionPanel(questionId, answerIndex) {
   const panel = document.getElementById("questionPanel");
   const buttons = panel.getElementsByTagName("button");
@@ -188,9 +175,7 @@ function updateQuestionPanel(questionId, answerIndex) {
   }
 }
 
-// =========================
-// ⏳ ĐỒNG HỒ ĐẾM NGƯỢC - PHIÊN BẢN CẢI TIẾN
-// =========================
+// Clock
 function startTimer(durationInSeconds) {
   const timerElement = document.getElementById("timer");
   if (!timerElement) {
@@ -228,13 +213,11 @@ function startTimer(durationInSeconds) {
   }, 1000);
 }
 
-// =========================
-// 🧮 XỬ LÝ NỘP BÀI - PHIÊN BẢN CẢI TIẾN
-// =========================
+// Xử lý nộp bài
 function setupSubmitButton() {
   const submitBtn = document.getElementById("submitExamBtn");
   if (!submitBtn) {
-    console.error("❌ Không tìm thấy nút nộp bài");
+    console.error("Can not find submit button");
     return;
   }
 
@@ -242,7 +225,7 @@ function setupSubmitButton() {
 }
 
 function handleSubmit() {
-  console.log("📤 Đang xử lý nộp bài...");
+  console.log("Đang xử lý nộp bài...");
   const userAnswers = getUserAnswers();
   const result = calculateScore(userAnswers, currentQuestions);
   showDetailedResult(result);
@@ -258,7 +241,7 @@ function getUserAnswers() {
     updateQuestionPanel(q.id, answers[q.id]);
   });
   
-  console.log("📝 Câu trả lời của user:", answers);
+  console.log("User answer:", answers);
   return answers;
 }
 

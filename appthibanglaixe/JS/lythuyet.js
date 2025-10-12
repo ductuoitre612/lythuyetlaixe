@@ -14,57 +14,57 @@
 
 // Dùng để chỉnh nút prev và next
 document.getElementById("prev").addEventListener("click", () => {
-  if (currentPage > 1) {
-    currentPage--;
-    renderPage(currentPage);
+  if (current_page > 1) {
+    current_page--;
+    renderPage(current_page);
   }
 });
 
 document.getElementById("next").addEventListener("click", () => {
-  if (currentPage < Math.ceil(questions.length / perPage)) {
-    currentPage++;
-    renderPage(currentPage);
+  if (current_page < Math.ceil(questions.length / questions_per_page)) {
+    current_page++;
+    renderPage(current_page);
   }
 });
 
 // Dùng để jump to page, có input
-const pageInputEl = document.getElementById('pageInput');
-const goPageBtn = document.getElementById('goPage');
+const page_input_El = document.getElementById('pageInput');
+const goPage_button = document.getElementById('goPage');
 
-if (goPageBtn) {
-  goPageBtn.addEventListener('click', () => {
+if (goPage_button) {
+  goPage_button.addEventListener('click', () => {
     if (!questions || questions.length === 0) return;
 
-    const totalPages = Math.max(1, Math.ceil(questions.length / perPage));
-    let val = parseInt(pageInputEl.value, 10);
+    const total_pages = Math.max(1, Math.ceil(questions.length / questions_per_page));
+    let val = parseInt(page_input_El.value, 10);
 
     if (Number.isNaN(val)) return;
     if (val < 1) val = 1;
-    if (val > totalPages) val = totalPages;
+    if (val > total_pages) val = total_pages;
 
-    currentPage = val;
+    current_page = val;
 
-    renderPage(currentPage);
+    renderPage(current_page);
   });
 }
 
-if (pageInputEl) {
-  pageInputEl.addEventListener('keydown', (e) => {
+if (page_input_El) {
+  page_input_El.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') {
       e.preventDefault();
-      if (goPageBtn) goPageBtn.click();
+      if (goPage_button) goPage_button.click();
     }
   });
 }
 
 let questions = [];
-let currentPage = 1;
-const perPage = 10;
+let current_page = 1;
+const questions_per_page = 10;
 
 async function loadQuestions() {
   const res = await fetch("/appthibanglaixe/Assets/Stuff/lythuyet_question.json");
   questions = await res.json();
-  renderPage(currentPage);
+  renderPage(current_page);
 }
 
 // Dùng để ngắt dòng text cho file JSON
@@ -80,8 +80,8 @@ function nl2br(raw) {
 
 // Như tên. Render page
 function renderPage(page) {
-  const start = (page - 1) * perPage;
-  const end = start + perPage;
+  const start = (page - 1) * questions_per_page;
+  const end = start + questions_per_page;
   const pageQuestions = questions.slice(start, end);
 
   const container = document.getElementById("questions");
@@ -113,26 +113,26 @@ function renderPage(page) {
 
   document.getElementById("pageInput").value = page;
   document.getElementById("pageInfo").textContent = 
-    `Trang ${page} / ${Math.ceil(questions.length / perPage)}`;
+    `Trang ${page} / ${Math.ceil(questions.length / questions_per_page)}`;
 
   renderPagination(page);
 }
 
 // Dùng để chỉnh nút nhảy trang
 function renderPagination(page) {
-  const totalPages = Math.ceil(questions.length / perPage);
-  const pageNumbers = document.getElementById("pageNumbers");
-  pageNumbers.innerHTML = "";
+  const total_pages = Math.ceil(questions.length / questions_per_page);
+  const page_numbers = document.getElementById("page_numbers");
+  page_numbers.innerHTML = "";
 
   const maxVisible = 5;
   const half = Math.floor(maxVisible / 2);
 
   let start = Math.max(1, page - half);
-  let end = Math.min(totalPages, page + half);
+  let end = Math.min(total_pages, page + half);
 
   if (end - start + 1 < maxVisible) {
     if (page <= half) {
-      end = Math.min(totalPages, start + maxVisible - 1);
+      end = Math.min(total_pages, start + maxVisible - 1);
     } else {
       start = Math.max(1, end - maxVisible + 1);
     }
@@ -147,9 +147,9 @@ function renderPagination(page) {
     createPageButton(i, i === page);
   }
 
-  if (end < totalPages) {
-    if (end < totalPages - 1) addDots();
-    createPageButton(totalPages);
+  if (end < total_pages) {
+    if (end < total_pages - 1) addDots();
+    createPageButton(total_pages);
   }
 
   function createPageButton(num, isActive = false) {
@@ -161,17 +161,17 @@ function renderPagination(page) {
       btn.style.background = "#ddd";
     }
     btn.onclick = () => {
-      currentPage = num;
-      renderPage(currentPage);
+      current_page = num;
+      renderPage(current_page);
     };
-    pageNumbers.appendChild(btn);
+    page_numbers.appendChild(btn);
   }
 
   function addDots() {
     const span = document.createElement("span");
     span.textContent = "...";
     span.style.margin = "0 5px";
-    pageNumbers.appendChild(span);
+    page_numbers.appendChild(span);
   }
 }
 
