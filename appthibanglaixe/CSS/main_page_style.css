@@ -15,6 +15,89 @@
   padding: 0;
 }
 
+/* navbar mặc định */
+.nav_bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  height: 70px;
+  padding: 14px 20px;
+  backdrop-filter: blur(6px) saturate(120%);
+  background: linear-gradient(180deg, rgba(71, 127, 210, 0.6), #c4d0e973);
+  color: var(--text);
+  font-size: 16px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* navbar khi scroll */
+.nav_bar.scrolled {
+  background: linear-gradient(180deg, #6290d5f2, #adbfe3e6);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+.nav_bar .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav_bar .logo img {
+  height: 48px;
+}
+
+.nav_bar .logo span {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* menu */
+.nav_bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_bar ul li a {
+  text-decoration: none;
+  color: #ddd;
+  font-weight: 500;
+  position: relative;
+  padding: 6px 4px;
+  transition: 0.12s;
+}
+
+.nav_bar ul li a:hover {
+  color: var(--text);
+  transform: translateY(-1px);
+}
+
+.nav_bar ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 3px;
+  width: 0;
+  background: linear-gradient(90deg, var(--accent), #9be7ff);
+  border-radius: 6px;
+  transition: width 0.25s;
+}
+
+.nav_bar ul li a:hover::after {
+  width: 100%;
+}
+
 html,
 body {
   height: 100%;
@@ -221,11 +304,11 @@ body {
 .exam_buttons button {
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.02),
-    rgba(255, 255, 255, 0.01)
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.02)
   );
   color: var(--text);
-  border: 1px solid rgba(255, 255, 255, 0.04);
+  border: 1.5px solid rgba(255, 255, 255, 0.6);
   border-radius: 10px;
   padding: 10px 18px;
   font-size: 16px;
@@ -235,10 +318,10 @@ body {
 
 .exam_buttons button:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.6);
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.6), 0 0 10px rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.9);
+  transition: all 0.2s ease;
 }
-
-
 
 .btn1 {
   color: #e6eef6;
@@ -275,6 +358,20 @@ footer {
   gap: 3rem 2rem;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   padding: 0 40px;
+}
+.footer_logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer_logo img {
+  max-width: 40px;
+}
+
+.footer_logo span {
+  font-size: 1.8rem;
+  font-weight: 800;
 }
 
 .footer_text {
