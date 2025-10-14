@@ -1,52 +1,52 @@
 body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      line-height: 1.6;
-    }
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  line-height: 1.6;
+}
 
 .question {
-      margin-bottom: 15px;
-      padding: 10px;
-      background: #f9f9f9;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-    }
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
 
 .navigation {
-      margin-top: 20px;
-    }
+  margin-top: 20px;
+}
 
 button {
-      padding: 6px 12px;
-      margin: 3px;
-      cursor: pointer;
-    }
+  padding: 6px 12px;
+  margin: 3px;
+  cursor: pointer;
+}
 
 #pagination {
-      margin-top: 15px;
-    }
+  margin-top: 15px;
+}
 
 #pagination button {
-      margin: 0 3px;
-      padding: 5px 10px;
-      border: 1px solid #aaa;
-      background: #fff;
-    }
+  margin: 0 3px;
+  padding: 5px 10px;
+  border: 1px solid #aaa;
+  background: #fff;
+}
 
 #pagination button:hover {
-      background: #eee;
-    }
+  background: #eee;
+}
 
 #pagination button.active {
-      font-weight: bold;
-      background: #ddd;
-    }
+  font-weight: bold;
+  background: #ddd;
+}
 
 #page-jump {
-      margin-top: 15px;
-    }
-    
+  margin-top: 15px;
+}
+
 #page-input {
-      width: 50px;
-      text-align: center;
-    }
+  width: 50px;
+  text-align: center;
+}
