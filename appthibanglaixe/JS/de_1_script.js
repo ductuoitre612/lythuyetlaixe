@@ -1,9 +1,9 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   // Đường dẫn tới file JSON
   const jsonPath = "/appthibanglaixe/Assets/Stuff/lythuyet_question.json";
 
   // Danh sách ID muốn hiển thị (ví dụ đề 1)
-  const selectedIds = [1, 26, 173, 200, 245];
+  const selectedIds = [1, 2, 3, 4, 5]; // Thay đổi theo đề
 
   // Số câu trên mỗi trang
   const questionsPerPage = 1;
@@ -19,7 +19,9 @@ document.addEventListener('DOMContentLoaded', () => {
       allQuestions = await response.json();
 
       // Lọc ra những câu hỏi có ID trong selectedIds
-      filteredQuestions = allQuestions.filter(q => selectedIds.includes(q.id));
+      filteredQuestions = allQuestions.filter((q) =>
+        selectedIds.includes(q.id)
+      );
 
       // Hiển thị trang đầu tiên
       renderQuestions();
@@ -27,7 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
     } catch (error) {
       console.error("Lỗi khi tải câu hỏi:", error);
       const container = document.getElementById("questions");
-      if (container) container.innerHTML = "<p>Không thể tải câu hỏi. Kiểm tra console.</p>";
+      if (container)
+        container.innerHTML = "<p>Không thể tải câu hỏi. Kiểm tra console.</p>";
     }
   }
 
@@ -69,7 +72,9 @@ document.addEventListener('DOMContentLoaded', () => {
         <h3>Câu ${start + index + 1}: ${q.question}</h3>
         <div class="question-media"></div>
         <ul>${optionsHtml}</ul>
-        <p class="explanation" style="display:none;">${nl2br(q.explanation || "")}</p>
+        <p class="explanation" style="display:none;">${nl2br(
+          q.explanation || ""
+        )}</p>
         <hr>
       `;
 
@@ -101,13 +106,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-
   function checkAnswer(selectedLi, question, selectedIndex, container) {
     const explanation = container.querySelector(".explanation");
     const allOptions = container.querySelectorAll("li");
 
     // Khóa tất cả các lựa chọn sau khi click
-    allOptions.forEach(li => {
+    allOptions.forEach((li) => {
       li.style.pointerEvents = "none";
       li.style.opacity = "0.85";
     });
@@ -130,9 +134,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (explanation) explanation.style.display = "block";
   }
 
-
   function updatePageInfo() {
-    const totalPages = Math.max(1, Math.ceil(filteredQuestions.length / questionsPerPage));
+    const totalPages = Math.max(
+      1,
+      Math.ceil(filteredQuestions.length / questionsPerPage)
+    );
     const el = document.getElementById("pageInfo");
     if (el) el.textContent = `Trang ${currentPage} / ${totalPages}`;
   }
